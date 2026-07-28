@@ -1,0 +1,200 @@
+2026-07-25 22:46:24,145 [INFO] 
+
+
+==================================================
+2026-07-25 22:46:24,146 [INFO] [01a PREPROCESS] dbbook2014-mine-one-hop
+2026-07-25 22:46:24,183 [INFO]   entities: 4660
+2026-07-25 22:46:24,236 [INFO]   target URIs: 4660
+2026-07-25 22:46:24,237 [INFO] 开始处理文件：disambiguations_en.ttl...
+2026-07-25 22:46:24,793 [INFO]   处理 disambiguations_en.ttl: 15 个目标行
+2026-07-25 22:46:24,913 [INFO] 单个文件处理完毕：disambiguations_en.ttl.
+2026-07-25 22:46:24,916 [INFO]   ambiguous entities to resolve: 2
+2026-07-25 22:46:34,075 [INFO]   resolved 2 / 2 ambiguous entities
+2026-07-25 22:46:34,075 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_a.json
+2026-07-25 22:46:34,076 [INFO]   descriptions_a count check passed: 4660 == 4660
+2026-07-25 22:47:02,058 [INFO] 
+
+
+==================================================
+2026-07-25 22:47:02,058 [INFO] [01b CRAWL] dbbook2014-mine-one-hop
+2026-07-25 22:47:02,104 [INFO]   loaded descriptions_a: 4660
+2026-07-25 22:47:02,113 [INFO]   target URIs: 4660 (entities: 4660, duplicate URI groups: 0, duplicate entities: 0)
+2026-07-25 22:47:02,114 [INFO] 开始处理文件：labels_en.ttl...
+2026-07-25 22:47:29,816 [INFO]   处理 labels_en.ttl: 4517 个目标行
+2026-07-25 22:47:44,548 [INFO] 单个文件处理完毕：labels_en.ttl.
+2026-07-25 22:47:44,549 [INFO] 开始处理文件：long_abstracts_en.ttl...
+2026-07-25 22:47:54,676 [INFO]   处理 long_abstracts_en.ttl: 3812 个目标行
+2026-07-25 22:48:08,995 [INFO] 单个文件处理完毕：long_abstracts_en.ttl.
+2026-07-25 22:48:08,995 [INFO] 开始处理文件：instance_types_en.ttl...
+2026-07-25 22:48:20,402 [INFO]   处理 instance_types_en.ttl: 3393 个目标行
+2026-07-25 22:48:23,877 [INFO] 单个文件处理完毕：instance_types_en.ttl.
+2026-07-25 22:48:23,878 [INFO] 开始处理文件：instance_types_transitive_en.ttl...
+2026-07-25 22:49:02,168 [INFO]   处理 instance_types_transitive_en.ttl: 27106 个目标行
+2026-07-25 22:49:27,266 [INFO] 单个文件处理完毕：instance_types_transitive_en.ttl.
+2026-07-25 22:49:27,267 [INFO] 开始处理文件：article_categories_en.ttl...
+2026-07-25 22:49:43,443 [INFO]   处理 article_categories_en.ttl: 38407 个目标行
+2026-07-25 22:50:13,789 [INFO] 单个文件处理完毕：article_categories_en.ttl.
+2026-07-25 22:50:13,789 [INFO] 开始处理文件：mappingbased_objects_en.ttl...
+2026-07-25 22:50:26,382 [INFO]   处理 mappingbased_objects_en.ttl: 24612 个目标行
+2026-07-25 22:50:48,929 [INFO] 单个文件处理完毕：mappingbased_objects_en.ttl.
+2026-07-25 22:50:48,929 [INFO] 开始处理文件：mappingbased_literals_en.ttl...
+2026-07-25 22:51:00,647 [INFO]   处理 mappingbased_literals_en.ttl: 13782 个目标行
+2026-07-25 22:51:15,970 [INFO] 单个文件处理完毕：mappingbased_literals_en.ttl.
+2026-07-25 22:51:15,971 [INFO] 开始处理文件：redirects_en.ttl...
+2026-07-25 22:51:32,099 [INFO]   处理 redirects_en.ttl: 703 个目标行
+2026-07-25 22:51:39,077 [INFO] 单个文件处理完毕：redirects_en.ttl.
+2026-07-25 22:51:39,078 [INFO] dbbook2014-mine-one-hop 所有文件处理结束，开始标记实体状态...
+2026-07-25 22:51:39,772 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_b.json
+2026-07-25 22:51:39,772 [INFO]   total=4660, status counts: {'failed': 143, 'label_only': 665, 'mapped': 3812, 'struct_only': 40}
+2026-07-25 22:51:39,773 [INFO]   descriptions_b count check passed: 4660 == 4660
+2026-07-25 22:51:40,494 [INFO]   no expand_map, descriptions_json same as descriptions_b: output\dbbook2014-mine-one-hop\01_crawl\descriptions.json
+2026-07-26 22:35:30,213 [INFO] 
+
+
+==================================================
+2026-07-26 22:35:30,214 [INFO] [01a PREPROCESS] dbbook2014-mine-one-hop
+2026-07-26 22:35:30,238 [INFO]   entities: 4417
+2026-07-26 22:35:30,291 [INFO]   target URIs: 4417
+2026-07-26 22:35:30,291 [INFO] 开始处理文件：disambiguations_en.ttl...
+2026-07-26 22:35:30,858 [INFO]   处理 disambiguations_en.ttl: 15 个目标行
+2026-07-26 22:35:31,638 [INFO] 单个文件处理完毕：disambiguations_en.ttl.
+2026-07-26 22:35:31,642 [INFO]   ambiguous entities to resolve: 2
+2026-07-26 22:35:39,855 [INFO]   resolved 2 / 2 ambiguous entities
+2026-07-26 22:35:39,855 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_a.json
+2026-07-26 22:35:39,857 [WARNING]   descriptions_a count mismatch: got 4417, expected 4660 (from n_entities)
+2026-07-26 22:36:52,970 [INFO] 
+
+
+==================================================
+2026-07-26 22:36:52,971 [INFO] [01b CRAWL] dbbook2014-mine-one-hop
+2026-07-26 22:36:53,024 [INFO]   loaded descriptions_a: 4417
+2026-07-26 22:36:53,036 [INFO]   target URIs: 4417 (entities: 4417, duplicate URI groups: 0, duplicate entities: 0)
+2026-07-26 22:36:53,036 [INFO] 开始处理文件：labels_en.ttl...
+2026-07-26 22:37:24,257 [INFO]   处理 labels_en.ttl: 4283 个目标行
+2026-07-26 22:37:39,276 [INFO] 单个文件处理完毕：labels_en.ttl.
+2026-07-26 22:37:39,277 [INFO] 开始处理文件：long_abstracts_en.ttl...
+2026-07-26 22:37:49,662 [INFO]   处理 long_abstracts_en.ttl: 3630 个目标行
+2026-07-26 22:38:05,402 [INFO] 单个文件处理完毕：long_abstracts_en.ttl.
+2026-07-26 22:38:05,403 [INFO] 开始处理文件：instance_types_en.ttl...
+2026-07-26 22:38:16,602 [INFO]   处理 instance_types_en.ttl: 3253 个目标行
+2026-07-26 22:38:22,968 [INFO] 单个文件处理完毕：instance_types_en.ttl.
+2026-07-26 22:38:22,968 [INFO] 开始处理文件：instance_types_transitive_en.ttl...
+2026-07-26 22:38:38,213 [INFO]   处理 instance_types_transitive_en.ttl: 26895 个目标行
+2026-07-26 22:39:02,998 [INFO] 单个文件处理完毕：instance_types_transitive_en.ttl.
+2026-07-26 22:39:02,999 [INFO] 开始处理文件：article_categories_en.ttl...
+2026-07-26 22:39:17,538 [INFO]   处理 article_categories_en.ttl: 37072 个目标行
+2026-07-26 22:39:46,884 [INFO] 单个文件处理完毕：article_categories_en.ttl.
+2026-07-26 22:39:46,884 [INFO] 开始处理文件：mappingbased_objects_en.ttl...
+2026-07-26 22:39:58,447 [INFO]   处理 mappingbased_objects_en.ttl: 23798 个目标行
+2026-07-26 22:40:18,242 [INFO] 单个文件处理完毕：mappingbased_objects_en.ttl.
+2026-07-26 22:40:18,243 [INFO] 开始处理文件：mappingbased_literals_en.ttl...
+2026-07-26 22:40:30,221 [INFO]   处理 mappingbased_literals_en.ttl: 13495 个目标行
+2026-07-26 22:40:45,269 [INFO] 单个文件处理完毕：mappingbased_literals_en.ttl.
+2026-07-26 22:40:45,270 [INFO] 开始处理文件：redirects_en.ttl...
+2026-07-26 22:41:00,943 [INFO]   处理 redirects_en.ttl: 651 个目标行
+2026-07-26 22:41:08,288 [INFO] 单个文件处理完毕：redirects_en.ttl.
+2026-07-26 22:41:08,288 [INFO] dbbook2014-mine-one-hop 所有文件处理结束，开始标记实体状态...
+2026-07-26 22:41:08,989 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_b.json
+2026-07-26 22:41:08,990 [INFO]   total=4417, status counts: {'failed': 134, 'label_only': 619, 'mapped': 3630, 'struct_only': 34}
+2026-07-26 22:41:08,997 [INFO]   descriptions_b count check passed: 4417 == 4417
+2026-07-26 22:41:09,637 [INFO]   no expand_map, descriptions_json same as descriptions_b: output\dbbook2014-mine-one-hop\01_crawl\descriptions.json
+2026-07-26 23:02:24,386 [INFO] 
+
+
+==================================================
+2026-07-26 23:02:24,386 [INFO] [01a PREPROCESS] dbbook2014-mine-one-hop
+2026-07-26 23:02:24,410 [INFO]   entities: 4660
+2026-07-26 23:02:24,467 [INFO]   target URIs: 4660
+2026-07-26 23:02:24,467 [INFO] 开始处理文件：disambiguations_en.ttl...
+2026-07-26 23:02:25,045 [INFO]   处理 disambiguations_en.ttl: 15 个目标行
+2026-07-26 23:02:25,169 [INFO] 单个文件处理完毕：disambiguations_en.ttl.
+2026-07-26 23:02:25,174 [INFO]   ambiguous entities to resolve: 2
+2026-07-26 23:02:29,879 [INFO]   resolved 2 / 2 ambiguous entities
+2026-07-26 23:02:29,879 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_a.json
+2026-07-26 23:02:29,882 [INFO]   descriptions_a count check passed: 4660 == 4660
+2026-07-26 23:02:34,265 [INFO] 
+
+
+==================================================
+2026-07-26 23:02:34,266 [INFO] [01b CRAWL] dbbook2014-mine-one-hop
+2026-07-26 23:02:34,321 [INFO]   loaded descriptions_a: 4660
+2026-07-26 23:02:34,333 [INFO]   target URIs: 4660 (entities: 4660, duplicate URI groups: 0, duplicate entities: 0)
+2026-07-26 23:02:34,333 [INFO] 开始处理文件：labels_en.ttl...
+2026-07-26 23:03:03,247 [INFO]   处理 labels_en.ttl: 4517 个目标行
+2026-07-26 23:03:10,401 [INFO] 单个文件处理完毕：labels_en.ttl.
+2026-07-26 23:03:10,402 [INFO] 开始处理文件：long_abstracts_en.ttl...
+2026-07-26 23:03:21,207 [INFO]   处理 long_abstracts_en.ttl: 3812 个目标行
+2026-07-26 23:03:26,664 [INFO] 单个文件处理完毕：long_abstracts_en.ttl.
+2026-07-26 23:03:26,664 [INFO] 开始处理文件：instance_types_en.ttl...
+2026-07-26 23:03:38,672 [INFO]   处理 instance_types_en.ttl: 3393 个目标行
+2026-07-26 23:03:42,354 [INFO] 单个文件处理完毕：instance_types_en.ttl.
+2026-07-26 23:03:42,354 [INFO] 开始处理文件：instance_types_transitive_en.ttl...
+2026-07-26 23:03:57,098 [INFO]   处理 instance_types_transitive_en.ttl: 27106 个目标行
+2026-07-26 23:04:14,697 [INFO] 单个文件处理完毕：instance_types_transitive_en.ttl.
+2026-07-26 23:04:14,697 [INFO] 开始处理文件：article_categories_en.ttl...
+2026-07-26 23:04:28,175 [INFO]   处理 article_categories_en.ttl: 38407 个目标行
+2026-07-26 23:04:53,105 [INFO] 单个文件处理完毕：article_categories_en.ttl.
+2026-07-26 23:04:53,105 [INFO] 开始处理文件：mappingbased_objects_en.ttl...
+2026-07-26 23:05:04,557 [INFO]   处理 mappingbased_objects_en.ttl: 24612 个目标行
+2026-07-26 23:05:21,373 [INFO] 单个文件处理完毕：mappingbased_objects_en.ttl.
+2026-07-26 23:05:21,374 [INFO] 开始处理文件：mappingbased_literals_en.ttl...
+2026-07-26 23:05:33,478 [INFO]   处理 mappingbased_literals_en.ttl: 13782 个目标行
+2026-07-26 23:05:42,784 [INFO] 单个文件处理完毕：mappingbased_literals_en.ttl.
+2026-07-26 23:05:42,785 [INFO] 开始处理文件：redirects_en.ttl...
+2026-07-26 23:05:56,699 [INFO]   处理 redirects_en.ttl: 703 个目标行
+2026-07-26 23:05:59,397 [INFO] 单个文件处理完毕：redirects_en.ttl.
+2026-07-26 23:05:59,398 [INFO] dbbook2014-mine-one-hop 所有文件处理结束，开始标记实体状态...
+2026-07-26 23:06:00,081 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_b.json
+2026-07-26 23:06:00,081 [INFO]   total=4660, status counts: {'failed': 143, 'label_only': 665, 'mapped': 3812, 'struct_only': 40}
+2026-07-26 23:06:00,083 [INFO]   descriptions_b count check passed: 4660 == 4660
+2026-07-26 23:06:00,793 [INFO]   no expand_map, descriptions_json same as descriptions_b: output\dbbook2014-mine-one-hop\01_crawl\descriptions.json
+2026-07-28 00:54:14,553 [INFO] 
+
+
+==================================================
+2026-07-28 00:54:14,654 [INFO] [01a PREPROCESS] dbbook2014-mine-one-hop
+2026-07-28 00:54:14,733 [INFO]   entities: 4660
+2026-07-28 00:54:14,811 [INFO]   target URIs: 4660
+2026-07-28 00:54:14,812 [INFO] 开始处理文件：disambiguations_en.ttl...
+2026-07-28 00:54:15,483 [INFO]   处理 disambiguations_en.ttl: 15 个目标行
+2026-07-28 00:54:15,598 [INFO] 单个文件处理完毕：disambiguations_en.ttl.
+2026-07-28 00:54:15,604 [INFO]   ambiguous entities to resolve: 2
+2026-07-28 00:54:20,921 [INFO]   resolved 2 / 2 ambiguous entities
+2026-07-28 00:54:20,922 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_a.json
+2026-07-28 00:54:20,923 [INFO]   descriptions_a count check passed: 4660 == 4660
+2026-07-28 00:54:46,032 [INFO] 
+
+
+==================================================
+2026-07-28 00:54:46,033 [INFO] [01b CRAWL] dbbook2014-mine-one-hop
+2026-07-28 00:54:46,085 [INFO]   loaded descriptions_a: 4660
+2026-07-28 00:54:46,095 [INFO]   target URIs: 4660 (entities: 4660, duplicate URI groups: 0, duplicate entities: 0)
+2026-07-28 00:54:46,096 [INFO] 开始处理文件：labels_en.ttl...
+2026-07-28 00:55:12,772 [INFO]   处理 labels_en.ttl: 4517 个目标行
+2026-07-28 00:55:28,155 [INFO] 单个文件处理完毕：labels_en.ttl.
+2026-07-28 00:55:28,156 [INFO] 开始处理文件：long_abstracts_en.ttl...
+2026-07-28 00:55:37,432 [INFO]   处理 long_abstracts_en.ttl: 3812 个目标行
+2026-07-28 00:55:57,767 [INFO] 单个文件处理完毕：long_abstracts_en.ttl.
+2026-07-28 00:55:57,768 [INFO] 开始处理文件：instance_types_en.ttl...
+2026-07-28 00:56:06,749 [INFO]   处理 instance_types_en.ttl: 3393 个目标行
+2026-07-28 00:56:15,711 [INFO] 单个文件处理完毕：instance_types_en.ttl.
+2026-07-28 00:56:15,711 [INFO] 开始处理文件：instance_types_transitive_en.ttl...
+2026-07-28 00:56:28,265 [INFO]   处理 instance_types_transitive_en.ttl: 27106 个目标行
+2026-07-28 00:56:52,420 [INFO] 单个文件处理完毕：instance_types_transitive_en.ttl.
+2026-07-28 00:56:52,420 [INFO] 开始处理文件：article_categories_en.ttl...
+2026-07-28 00:57:04,435 [INFO]   处理 article_categories_en.ttl: 38407 个目标行
+2026-07-28 00:57:38,080 [INFO] 单个文件处理完毕：article_categories_en.ttl.
+2026-07-28 00:57:38,080 [INFO] 开始处理文件：mappingbased_objects_en.ttl...
+2026-07-28 00:57:48,460 [INFO]   处理 mappingbased_objects_en.ttl: 24612 个目标行
+2026-07-28 00:58:10,055 [INFO] 单个文件处理完毕：mappingbased_objects_en.ttl.
+2026-07-28 00:58:10,056 [INFO] 开始处理文件：mappingbased_literals_en.ttl...
+2026-07-28 00:58:20,306 [INFO]   处理 mappingbased_literals_en.ttl: 13782 个目标行
+2026-07-28 00:58:34,118 [INFO] 单个文件处理完毕：mappingbased_literals_en.ttl.
+2026-07-28 00:58:34,119 [INFO] 开始处理文件：redirects_en.ttl...
+2026-07-28 00:58:48,362 [INFO]   处理 redirects_en.ttl: 703 个目标行
+2026-07-28 00:58:55,148 [INFO] 单个文件处理完毕：redirects_en.ttl.
+2026-07-28 00:58:55,149 [INFO] dbbook2014-mine-one-hop 所有文件处理结束，开始标记实体状态...
+2026-07-28 00:58:55,810 [INFO]   saved: output\dbbook2014-mine-one-hop\01_crawl\descriptions_b.json
+2026-07-28 00:58:55,810 [INFO]   total=4660, status counts: {'failed': 143, 'label_only': 665, 'mapped': 3812, 'struct_only': 40}
+2026-07-28 00:58:55,812 [INFO]   descriptions_b count check passed: 4660 == 4660
+2026-07-28 00:58:56,530 [INFO]   no expand_map, descriptions_json same as descriptions_b: output\dbbook2014-mine-one-hop\01_crawl\descriptions.json

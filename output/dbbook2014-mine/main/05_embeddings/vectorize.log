@@ -1,0 +1,63 @@
+2026-07-23 20:13:00,818 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine mode=debug model=/root/autodl-tmp/data_preprocess/models/VECs/sup-simcse-roberta-large
+2026-07-23 20:13:00,851 [INFO] Loaded 2624 LLM outputs
+2026-07-23 20:13:00,854 [INFO] Debug mode: processing first 10 entities
+2026-07-23 20:13:00,854 [INFO] Loading embedding model: /root/autodl-tmp/data_preprocess/models/VECs/sup-simcse-roberta-large
+2026-07-23 20:14:30,416 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine mode=debug model=./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:14:30,503 [INFO] Loaded 2624 LLM outputs
+2026-07-23 20:14:30,512 [INFO] Debug mode: processing first 10 entities
+2026-07-23 20:14:30,513 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:14:30,516 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-23 20:19:08,180 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine mode=debug model=./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:19:08,213 [INFO] Loaded 2624 LLM outputs
+2026-07-23 20:19:08,215 [INFO] Debug mode: processing first 10 entities
+2026-07-23 20:19:08,216 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:19:56,594 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine mode=debug model=./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:19:56,655 [INFO] Loaded 2624 LLM outputs
+2026-07-23 20:19:56,660 [INFO] Debug mode: processing first 10 entities
+2026-07-23 20:19:56,660 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:19:56,666 [INFO] Auto-selected device: cpu
+2026-07-23 20:19:56,671 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-23 20:19:57,840 [INFO] Encoding 10 texts (max_length=256, normalize=True)
+2026-07-23 20:20:07,846 [INFO] Embeddings shape: (10, 1024)
+2026-07-23 20:20:07,851 [INFO] Saved embeddings -> output\dbbook2014-mine\05_embeddings\entity_embeddings.npy
+2026-07-23 20:20:07,853 [INFO] Saved id mapping -> output\dbbook2014-mine\05_embeddings\entity_embeddings.json
+2026-07-23 20:20:49,474 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine mode=full model=./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:20:49,509 [INFO] Loaded 2624 LLM outputs
+2026-07-23 20:20:49,513 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-23 20:20:49,514 [INFO] Auto-selected device: cpu
+2026-07-23 20:20:49,521 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-23 20:20:50,598 [INFO] Encoding 2624 texts (max_length=256, normalize=True)
+2026-07-23 20:50:37,097 [INFO] Embeddings shape: (2624, 1024)
+2026-07-23 20:50:37,433 [INFO] Saved embeddings -> output\dbbook2014-mine\05_embeddings\entity_embeddings.npy
+2026-07-23 20:50:37,453 [INFO] Saved id mapping -> output\dbbook2014-mine\05_embeddings\entity_embeddings.json
+2026-07-23 22:41:37,973 [INFO] 
+
+
+==================================================
+2026-07-23 22:41:37,973 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine mode=full model=./models/VECs/sup-simcse-roberta-large
+2026-07-23 22:41:38,008 [INFO] Loaded 2624 LLM outputs
+2026-07-23 22:41:38,011 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-23 22:41:38,012 [INFO] Auto-selected device: cpu
+2026-07-23 22:41:38,016 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-23 22:41:39,024 [INFO] Encoding 2624 texts (max_length=256, normalize=False)
+2026-07-23 23:10:57,296 [INFO] Embeddings shape: (2624, 1024)
+2026-07-23 23:10:57,400 [INFO] Saved embeddings -> output\dbbook2014-mine\05_embeddings\entity_embeddings.npy
+2026-07-23 23:10:57,408 [INFO] Saved id mapping -> output\dbbook2014-mine\05_embeddings\entity_embeddings.json
+2026-07-26 00:05:57,732 [INFO] 
+
+
+==================================================
+2026-07-26 00:05:57,733 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine-main mode=full model=./models/VECs/sup-simcse-roberta-large
+2026-07-26 00:06:50,833 [INFO] 
+
+
+==================================================
+2026-07-26 00:06:50,833 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine-main mode=full model=./models/VECs/sup-simcse-roberta-large
+2026-07-26 00:06:50,869 [INFO] Loaded 2680 LLM outputs
+2026-07-26 00:06:50,873 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-26 00:06:50,874 [INFO] Auto-selected device: cpu
+2026-07-26 00:06:50,883 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-26 00:06:58,125 [INFO] Encoding 2680 texts (max_length=256)
+2026-07-26 00:36:53,913 [INFO] Embeddings shape: (2680, 1024)
+2026-07-26 00:36:53,968 [INFO] Saved L2-normalized embeddings -> output\dbbook2014-mine-main\05_embeddings\entity_embeddings.npy
+2026-07-26 00:36:53,979 [INFO] Saved non-L2 embeddings -> output\dbbook2014-mine-main\05_embeddings\entity_embeddings_no_l2.npy

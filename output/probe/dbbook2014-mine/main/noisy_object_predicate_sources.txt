@@ -1,0 +1,52 @@
+predicate	entity_id	name	uri	object
+dbo:editor	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	dbr:Gideon_Rose
+dbo:academicDiscipline	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	dbr:Foreign_affairs
+dbo:city	170	Eternity SF	http://dbpedia.org/resource/Eternity_SF	dbr:South_Carolina
+dbo:director	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Michael_Anderson_(director)
+dbo:producer	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:George_Englund
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Laurence_Olivier
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Anthony_Quinn
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Oskar_Werner
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:David_Janssen
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Vittorio_De_Sica
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Leo_McKern
+dbo:starring	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:John_Gielgud
+dbo:musicComposer	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Alex_North
+dbo:cinematography	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Erwin_Hillier
+dbo:distributor	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	dbr:Metro-Goldwyn-Mayer
+dbo:originalLanguage	405	Oedipus the King	http://dbpedia.org/resource/Oedipus_the_King	dbr:Classical_Greek
+dbo:soundRecording	480	Life Is a Dream	http://dbpedia.org/resource/Life_Is_a_Dream	dbr:Life_Is_a_Dream__1
+dbo:editor	559	Sojourners	http://dbpedia.org/resource/Sojourners	dbr:Jim_Wallis
+dbo:city	559	Sojourners	http://dbpedia.org/resource/Sojourners	dbr:Washington,_D.C.
+dbo:originalLanguage	613	Funeral Games (play)	http://dbpedia.org/resource/Funeral_Games_(play)	dbr:English_language
+dbo:format	624	Inext	http://dbpedia.org/resource/Inext	dbr:Broadsheet
+dbo:magazine	899	Crystal Dragon	http://dbpedia.org/resource/Crystal_Dragon	dbr:Mystery_Bonita
+dbo:city	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	dbr:New_York_City
+dbo:originalLanguage	933	A Doll's House	http://dbpedia.org/resource/A_Doll's_House	dbr:Norwegian_language
+dbo:soundRecording	1184	The Legend of Sleepy Hollow	http://dbpedia.org/resource/The_Legend_of_Sleepy_Hollow	dbr:The_Legend_of_Sleepy_Hollow__1
+dbo:magazine	1365	Ghost in the Shell (manga)	http://dbpedia.org/resource/Ghost_in_the_Shell_(manga)	dbr:Young_Magazine
+dbo:magazine	1413	Helter Skelter (manga)	http://dbpedia.org/resource/Helter_Skelter_(manga)	dbr:Feel_Young
+dbo:soundRecording	1459	Go Down Moses	http://dbpedia.org/resource/Go_Down_Moses	dbr:Go_Down_Moses__1
+dbo:originalLanguage	1559	The Miracle Worker (play)	http://dbpedia.org/resource/The_Miracle_Worker_(play)	dbr:English_language
+dbo:format	1604	Weekender	http://dbpedia.org/resource/Weekender	dbr:Tabloid_(newspaper_format)
+dbo:owner	1604	Weekender	http://dbpedia.org/resource/Weekender	dbr:Northcliffe_Newspapers_Group
+dbo:editor	1604	Weekender	http://dbpedia.org/resource/Weekender	dbr:Brendan_Hanrahan
+dbo:headquarter	1604	Weekender	http://dbpedia.org/resource/Weekender	dbr:Torquay
+dbo:headquarter	1604	Weekender	http://dbpedia.org/resource/Weekender	dbr:England
+dbo:format	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:Berliner_(format)
+dbo:foundedBy	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:John_Edward_Taylor
+dbo:owner	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:Guardian_Media_Group
+dbo:editor	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:Katharine_Viner
+dbo:headquarter	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:Kings_Place
+dbo:headquarter	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:London
+dbo:sisterNewspaper	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:The_Observer
+dbo:sisterNewspaper	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	dbr:The_Guardian_Weekly
+dbo:magazine	1622	Happiness! (visual novel)	http://dbpedia.org/resource/Happiness!_(visual_novel)	dbr:Monthly_Comic_Alive
+dbo:originalLanguage	1689	The Bald Soprano	http://dbpedia.org/resource/The_Bald_Soprano	dbr:Romanian_language
+dbo:originalLanguage	1689	The Bald Soprano	http://dbpedia.org/resource/The_Bald_Soprano	dbr:French_language
+dbo:soundRecording	1916	Leaves of Grass	http://dbpedia.org/resource/Leaves_of_Grass	dbr:Leaves_of_Grass__1
+dbo:soundRecording	1916	Leaves of Grass	http://dbpedia.org/resource/Leaves_of_Grass	dbr:Leaves_of_Grass__2
+dbo:magazine	2336	D.N.Angel	http://dbpedia.org/resource/D.N.Angel	dbr:Monthly_Asuka
+dbo:city	2509	Hit Parader	http://dbpedia.org/resource/Hit_Parader	dbr:Derby,_Connecticut
+dbo:soundRecording	2525	Generation X: Tales for an Accelerated Culture	http://dbpedia.org/resource/Generation_X:_Tales_for_an_Accelerated_Culture	dbr:Generation_X:_Tales_for_an_Accelerated_Culture__1
+dbo:magazine	2526	The Flowers of Evil (manga)	http://dbpedia.org/resource/The_Flowers_of_Evil_(manga)	dbr:Bessatsu_Shōnen_Magazine

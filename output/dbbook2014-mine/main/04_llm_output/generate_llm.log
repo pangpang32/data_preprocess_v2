@@ -1,0 +1,450 @@
+2026-07-23 15:34:29,155 [INFO] 
+
+
+==================================================
+2026-07-23 15:34:29,155 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=debug
+2026-07-23 15:34:29,155 [INFO] Loaded 10 prompts
+2026-07-23 15:34:29,155 [INFO] Debug mode: processing first 4 prompts
+2026-07-23 15:34:29,155 [INFO] Entities to generate: 4
+2026-07-23 15:34:29,155 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 15:39:05,575 [INFO] 
+
+
+==================================================
+2026-07-23 15:39:05,575 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=debug
+2026-07-23 15:39:05,576 [INFO] Loaded 10 prompts
+2026-07-23 15:39:05,576 [INFO] Debug mode: processing first 4 prompts
+2026-07-23 15:39:05,576 [INFO] Entities to generate: 4
+2026-07-23 15:39:05,576 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 15:57:05,757 [INFO] 
+
+
+==================================================
+2026-07-23 15:57:05,758 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=debug
+2026-07-23 15:57:05,758 [INFO] Loaded 10 prompts
+2026-07-23 15:57:05,758 [INFO] Debug mode: processing first 4 prompts
+2026-07-23 15:57:05,758 [INFO] Entities to generate: 4
+2026-07-23 15:57:05,758 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 15:58:18,998 [INFO] 
+
+
+==================================================
+2026-07-23 15:58:18,998 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=debug
+2026-07-23 15:58:18,999 [INFO] Loaded 10 prompts
+2026-07-23 15:58:18,999 [INFO] Debug mode: processing first 4 prompts
+2026-07-23 15:58:18,999 [INFO] Entities to generate: 4
+2026-07-23 15:58:18,999 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 15:59:32,293 [INFO] 
+
+
+==================================================
+2026-07-23 15:59:32,293 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 15:59:32,365 [INFO] Loaded 2624 prompts
+2026-07-23 15:59:32,366 [INFO] Entities to generate: 2624
+2026-07-23 15:59:32,366 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:06:25,068 [INFO] 
+
+
+==================================================
+2026-07-23 16:06:25,068 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 16:06:25,137 [INFO] Loaded 2624 prompts
+2026-07-23 16:06:25,138 [INFO] Entities to generate: 2624
+2026-07-23 16:06:25,138 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:11:48,775 [INFO] 
+
+
+==================================================
+2026-07-23 16:11:48,775 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 16:11:48,853 [INFO] Loaded 2624 prompts
+2026-07-23 16:11:48,854 [INFO] Entities to generate: 2624
+2026-07-23 16:11:48,854 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:16:59,509 [INFO] 
+
+
+==================================================
+2026-07-23 16:16:59,510 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 16:16:59,575 [INFO] Loaded 2624 prompts
+2026-07-23 16:16:59,575 [INFO] Entities to generate: 2624
+2026-07-23 16:16:59,575 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:23:18,025 [INFO] 
+
+
+==================================================
+2026-07-23 16:23:18,025 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 16:23:18,096 [INFO] Loaded 2624 prompts
+2026-07-23 16:23:18,097 [INFO] Entities to generate: 2624
+2026-07-23 16:23:18,097 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:30:32,904 [INFO] 
+
+
+==================================================
+2026-07-23 16:30:32,904 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 16:30:32,969 [INFO] Loaded 2624 prompts
+2026-07-23 16:30:32,970 [INFO] Entities to generate: 2624
+2026-07-23 16:30:32,970 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:31:00,746 [INFO] vLLM initialized
+2026-07-23 16:31:00,754 [INFO] Generating batch 1/82 (32 prompts)
+2026-07-23 16:31:11,046 [INFO] Saved progress: 32/2624
+2026-07-23 16:31:11,048 [INFO] Generating batch 2/82 (32 prompts)
+2026-07-23 16:31:20,903 [INFO] Saved progress: 64/2624
+2026-07-23 16:31:20,904 [INFO] Generating batch 3/82 (32 prompts)
+2026-07-23 16:31:30,849 [INFO] Saved progress: 96/2624
+2026-07-23 16:31:30,850 [INFO] Generating batch 4/82 (32 prompts)
+2026-07-23 16:31:40,556 [INFO] Saved progress: 128/2624
+2026-07-23 16:31:40,557 [INFO] Generating batch 5/82 (32 prompts)
+2026-07-23 16:31:50,484 [INFO] Saved progress: 160/2624
+2026-07-23 16:31:50,485 [INFO] Generating batch 6/82 (32 prompts)
+2026-07-23 16:32:01,329 [INFO] Saved progress: 192/2624
+2026-07-23 16:32:01,330 [INFO] Generating batch 7/82 (32 prompts)
+2026-07-23 16:32:11,280 [INFO] Saved progress: 224/2624
+2026-07-23 16:32:11,281 [INFO] Generating batch 8/82 (32 prompts)
+2026-07-23 16:32:22,144 [INFO] Saved progress: 256/2624
+2026-07-23 16:32:22,146 [INFO] Generating batch 9/82 (32 prompts)
+2026-07-23 16:32:32,133 [INFO] Saved progress: 288/2624
+2026-07-23 16:32:32,134 [INFO] Generating batch 10/82 (32 prompts)
+2026-07-23 16:32:41,989 [INFO] Saved progress: 320/2624
+2026-07-23 16:32:41,990 [INFO] Generating batch 11/82 (32 prompts)
+2026-07-23 16:32:51,888 [INFO] Saved progress: 352/2624
+2026-07-23 16:32:51,890 [INFO] Generating batch 12/82 (32 prompts)
+2026-07-23 16:33:02,321 [INFO] Saved progress: 384/2624
+2026-07-23 16:33:02,322 [INFO] Generating batch 13/82 (32 prompts)
+2026-07-23 16:33:12,748 [INFO] Saved progress: 416/2624
+2026-07-23 16:33:12,749 [INFO] Generating batch 14/82 (32 prompts)
+2026-07-23 16:33:23,052 [INFO] Saved progress: 448/2624
+2026-07-23 16:33:23,053 [INFO] Generating batch 15/82 (32 prompts)
+2026-07-23 16:33:33,084 [INFO] Saved progress: 480/2624
+2026-07-23 16:33:33,085 [INFO] Generating batch 16/82 (32 prompts)
+2026-07-23 16:33:43,007 [INFO] Saved progress: 512/2624
+2026-07-23 16:33:43,008 [INFO] Generating batch 17/82 (32 prompts)
+2026-07-23 16:33:53,275 [INFO] Saved progress: 544/2624
+2026-07-23 16:33:53,276 [INFO] Generating batch 18/82 (32 prompts)
+2026-07-23 16:34:03,534 [INFO] Saved progress: 576/2624
+2026-07-23 16:34:03,535 [INFO] Generating batch 19/82 (32 prompts)
+2026-07-23 16:34:13,371 [INFO] Saved progress: 608/2624
+2026-07-23 16:34:13,372 [INFO] Generating batch 20/82 (32 prompts)
+2026-07-23 16:34:23,520 [INFO] Saved progress: 640/2624
+2026-07-23 16:34:23,522 [INFO] Generating batch 21/82 (32 prompts)
+2026-07-23 16:34:34,305 [INFO] Saved progress: 672/2624
+2026-07-23 16:34:34,306 [INFO] Generating batch 22/82 (32 prompts)
+2026-07-23 16:34:44,355 [INFO] Saved progress: 704/2624
+2026-07-23 16:34:44,361 [INFO] Generating batch 23/82 (32 prompts)
+2026-07-23 16:34:54,412 [INFO] Saved progress: 736/2624
+2026-07-23 16:34:54,414 [INFO] Generating batch 24/82 (32 prompts)
+2026-07-23 16:35:04,534 [INFO] Saved progress: 768/2624
+2026-07-23 16:35:04,536 [INFO] Generating batch 25/82 (32 prompts)
+2026-07-23 16:35:14,683 [INFO] Saved progress: 800/2624
+2026-07-23 16:35:14,685 [INFO] Generating batch 26/82 (32 prompts)
+2026-07-23 16:35:24,590 [INFO] Saved progress: 832/2624
+2026-07-23 16:35:24,591 [INFO] Generating batch 27/82 (32 prompts)
+2026-07-23 16:35:34,828 [INFO] Saved progress: 864/2624
+2026-07-23 16:35:34,830 [INFO] Generating batch 28/82 (32 prompts)
+2026-07-23 16:35:44,848 [INFO] Saved progress: 896/2624
+2026-07-23 16:35:44,850 [INFO] Generating batch 29/82 (32 prompts)
+2026-07-23 16:35:55,144 [INFO] Saved progress: 928/2624
+2026-07-23 16:35:55,145 [INFO] Generating batch 30/82 (32 prompts)
+2026-07-23 16:36:05,560 [INFO] Saved progress: 960/2624
+2026-07-23 16:36:05,562 [INFO] Generating batch 31/82 (32 prompts)
+2026-07-23 16:36:16,148 [INFO] Saved progress: 992/2624
+2026-07-23 16:36:16,149 [INFO] Generating batch 32/82 (32 prompts)
+2026-07-23 16:36:26,180 [INFO] Saved progress: 1024/2624
+2026-07-23 16:36:26,181 [INFO] Generating batch 33/82 (32 prompts)
+2026-07-23 16:36:36,248 [INFO] Saved progress: 1056/2624
+2026-07-23 16:36:36,250 [INFO] Generating batch 34/82 (32 prompts)
+2026-07-23 16:36:45,724 [INFO] Saved progress: 1088/2624
+2026-07-23 16:36:45,725 [INFO] Generating batch 35/82 (32 prompts)
+2026-07-23 16:36:55,554 [INFO] Saved progress: 1120/2624
+2026-07-23 16:36:55,556 [INFO] Generating batch 36/82 (32 prompts)
+2026-07-23 16:37:05,503 [INFO] Saved progress: 1152/2624
+2026-07-23 16:37:05,504 [INFO] Generating batch 37/82 (32 prompts)
+2026-07-23 16:37:16,011 [INFO] Saved progress: 1184/2624
+2026-07-23 16:37:16,012 [INFO] Generating batch 38/82 (32 prompts)
+2026-07-23 16:37:26,634 [INFO] Saved progress: 1216/2624
+2026-07-23 16:37:26,635 [INFO] Generating batch 39/82 (32 prompts)
+2026-07-23 16:37:36,615 [INFO] Saved progress: 1248/2624
+2026-07-23 16:37:36,616 [INFO] Generating batch 40/82 (32 prompts)
+2026-07-23 16:37:46,955 [INFO] Saved progress: 1280/2624
+2026-07-23 16:37:46,957 [INFO] Generating batch 41/82 (32 prompts)
+2026-07-23 16:37:58,024 [INFO] Saved progress: 1312/2624
+2026-07-23 16:37:58,025 [INFO] Generating batch 42/82 (32 prompts)
+2026-07-23 16:38:08,865 [INFO] Saved progress: 1344/2624
+2026-07-23 16:38:08,866 [INFO] Generating batch 43/82 (32 prompts)
+2026-07-23 16:38:19,290 [INFO] Saved progress: 1376/2624
+2026-07-23 16:38:19,291 [INFO] Generating batch 44/82 (32 prompts)
+2026-07-23 16:38:29,308 [INFO] Saved progress: 1408/2624
+2026-07-23 16:38:29,310 [INFO] Generating batch 45/82 (32 prompts)
+2026-07-23 16:38:39,584 [INFO] Saved progress: 1440/2624
+2026-07-23 16:38:39,585 [INFO] Generating batch 46/82 (32 prompts)
+2026-07-23 16:38:50,111 [INFO] Saved progress: 1472/2624
+2026-07-23 16:38:50,112 [INFO] Generating batch 47/82 (32 prompts)
+2026-07-23 16:39:00,289 [INFO] Saved progress: 1504/2624
+2026-07-23 16:39:00,290 [INFO] Generating batch 48/82 (32 prompts)
+2026-07-23 16:39:10,257 [INFO] Saved progress: 1536/2624
+2026-07-23 16:39:10,262 [INFO] Generating batch 49/82 (32 prompts)
+2026-07-23 16:39:21,057 [INFO] Saved progress: 1568/2624
+2026-07-23 16:39:21,058 [INFO] Generating batch 50/82 (32 prompts)
+2026-07-23 16:39:32,079 [INFO] Saved progress: 1600/2624
+2026-07-23 16:39:32,080 [INFO] Generating batch 51/82 (32 prompts)
+2026-07-23 16:39:42,459 [INFO] Saved progress: 1632/2624
+2026-07-23 16:39:42,460 [INFO] Generating batch 52/82 (32 prompts)
+2026-07-23 16:39:52,527 [INFO] Saved progress: 1664/2624
+2026-07-23 16:39:52,529 [INFO] Generating batch 53/82 (32 prompts)
+2026-07-23 16:40:02,711 [INFO] Saved progress: 1696/2624
+2026-07-23 16:40:02,712 [INFO] Generating batch 54/82 (32 prompts)
+2026-07-23 16:40:12,587 [INFO] Saved progress: 1728/2624
+2026-07-23 16:40:12,589 [INFO] Generating batch 55/82 (32 prompts)
+2026-07-23 16:40:22,367 [INFO] Saved progress: 1760/2624
+2026-07-23 16:40:22,368 [INFO] Generating batch 56/82 (32 prompts)
+2026-07-23 16:40:32,536 [INFO] Saved progress: 1792/2624
+2026-07-23 16:40:32,538 [INFO] Generating batch 57/82 (32 prompts)
+2026-07-23 16:40:42,715 [INFO] Saved progress: 1824/2624
+2026-07-23 16:40:42,716 [INFO] Generating batch 58/82 (32 prompts)
+2026-07-23 16:40:52,572 [INFO] Saved progress: 1856/2624
+2026-07-23 16:40:52,574 [INFO] Generating batch 59/82 (32 prompts)
+2026-07-23 16:41:02,461 [INFO] Saved progress: 1888/2624
+2026-07-23 16:41:02,462 [INFO] Generating batch 60/82 (32 prompts)
+2026-07-23 16:41:12,774 [INFO] Saved progress: 1920/2624
+2026-07-23 16:41:12,775 [INFO] Generating batch 61/82 (32 prompts)
+2026-07-23 16:41:23,071 [INFO] Saved progress: 1952/2624
+2026-07-23 16:41:23,072 [INFO] Generating batch 62/82 (32 prompts)
+2026-07-23 16:41:32,488 [INFO] Saved progress: 1984/2624
+2026-07-23 16:41:32,489 [INFO] Generating batch 63/82 (32 prompts)
+2026-07-23 16:41:42,590 [INFO] Saved progress: 2016/2624
+2026-07-23 16:41:42,592 [INFO] Generating batch 64/82 (32 prompts)
+2026-07-23 16:41:52,826 [INFO] Saved progress: 2048/2624
+2026-07-23 16:41:52,828 [INFO] Generating batch 65/82 (32 prompts)
+2026-07-23 16:42:02,610 [INFO] Saved progress: 2080/2624
+2026-07-23 16:42:02,612 [INFO] Generating batch 66/82 (32 prompts)
+2026-07-23 16:42:12,953 [INFO] Saved progress: 2112/2624
+2026-07-23 16:42:12,955 [INFO] Generating batch 67/82 (32 prompts)
+2026-07-23 16:42:23,087 [INFO] Saved progress: 2144/2624
+2026-07-23 16:42:23,088 [INFO] Generating batch 68/82 (32 prompts)
+2026-07-23 16:42:33,164 [INFO] Saved progress: 2176/2624
+2026-07-23 16:42:33,165 [INFO] Generating batch 69/82 (32 prompts)
+2026-07-23 16:42:43,044 [INFO] Saved progress: 2208/2624
+2026-07-23 16:42:43,046 [INFO] Generating batch 70/82 (32 prompts)
+2026-07-23 16:42:53,207 [INFO] Saved progress: 2240/2624
+2026-07-23 16:42:53,208 [INFO] Generating batch 71/82 (32 prompts)
+2026-07-23 16:43:03,261 [INFO] Saved progress: 2272/2624
+2026-07-23 16:43:03,263 [INFO] Generating batch 72/82 (32 prompts)
+2026-07-23 16:43:13,619 [INFO] Saved progress: 2304/2624
+2026-07-23 16:43:13,620 [INFO] Generating batch 73/82 (32 prompts)
+2026-07-23 16:43:24,165 [INFO] Saved progress: 2336/2624
+2026-07-23 16:43:24,167 [INFO] Generating batch 74/82 (32 prompts)
+2026-07-23 16:43:34,856 [INFO] Saved progress: 2368/2624
+2026-07-23 16:43:34,857 [INFO] Generating batch 75/82 (32 prompts)
+2026-07-23 16:43:45,049 [INFO] Saved progress: 2400/2624
+2026-07-23 16:43:45,050 [INFO] Generating batch 76/82 (32 prompts)
+2026-07-23 16:43:55,317 [INFO] Saved progress: 2432/2624
+2026-07-23 16:43:55,319 [INFO] Generating batch 77/82 (32 prompts)
+2026-07-23 16:44:05,367 [INFO] Saved progress: 2464/2624
+2026-07-23 16:44:05,368 [INFO] Generating batch 78/82 (32 prompts)
+2026-07-23 16:44:15,459 [INFO] Saved progress: 2496/2624
+2026-07-23 16:44:15,461 [INFO] Generating batch 79/82 (32 prompts)
+2026-07-23 16:44:26,089 [INFO] Saved progress: 2528/2624
+2026-07-23 16:44:26,090 [INFO] Generating batch 80/82 (32 prompts)
+2026-07-23 16:44:36,716 [INFO] Saved progress: 2560/2624
+2026-07-23 16:44:36,717 [INFO] Generating batch 81/82 (32 prompts)
+2026-07-23 16:44:46,761 [INFO] Saved progress: 2592/2624
+2026-07-23 16:44:46,762 [INFO] Generating batch 82/82 (32 prompts)
+2026-07-23 16:44:56,988 [INFO] Saved progress: 2624/2624
+2026-07-23 16:44:56,988 [INFO] Done. Total outputs: 2624
+2026-07-23 16:55:50,350 [INFO] 
+
+
+==================================================
+2026-07-23 16:55:50,351 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=debug
+2026-07-23 16:55:50,351 [INFO] Loaded 10 prompts
+2026-07-23 16:55:50,351 [INFO] Debug mode: processing first 10 prompts
+2026-07-23 16:55:50,351 [INFO] Entities to generate: 10
+2026-07-23 16:55:50,351 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 16:56:28,333 [INFO] vLLM initialized
+2026-07-23 16:56:28,340 [INFO] Generating batch 1/1 (10 prompts)
+2026-07-23 16:56:34,550 [INFO] Saved progress: 10/10
+2026-07-23 16:56:34,550 [INFO] Done. Total outputs: 10
+2026-07-23 17:02:45,753 [INFO] 
+
+
+==================================================
+2026-07-23 17:02:45,753 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=debug
+2026-07-23 17:02:45,754 [INFO] Loaded 10 prompts
+2026-07-23 17:02:45,754 [INFO] Debug mode: processing first 10 prompts
+2026-07-23 17:02:45,754 [INFO] Entities to generate: 10
+2026-07-23 17:02:45,754 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 17:03:14,912 [INFO] vLLM initialized
+2026-07-23 17:03:14,921 [INFO] Generating batch 1/1 (10 prompts)
+2026-07-23 17:03:21,325 [INFO] Saved progress: 10/10
+2026-07-23 17:03:21,325 [INFO] Done. Total outputs: 10
+2026-07-23 17:05:25,270 [INFO] 
+
+
+==================================================
+2026-07-23 17:05:25,270 [INFO] [04 GENERATE LLM TEXT] dataset=dbbook2014-mine mode=full
+2026-07-23 17:05:25,343 [INFO] Loaded 2624 prompts
+2026-07-23 17:05:25,343 [INFO] Entities to generate: 2624
+2026-07-23 17:05:25,343 [INFO] Initializing vLLM with model: /root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct
+2026-07-23 17:05:54,856 [INFO] vLLM initialized
+2026-07-23 17:05:54,864 [INFO] Generating batch 1/82 (32 prompts)
+2026-07-23 17:06:06,664 [INFO] Saved progress: 32/2624
+2026-07-23 17:06:06,666 [INFO] Generating batch 2/82 (32 prompts)
+2026-07-23 17:06:17,965 [INFO] Saved progress: 64/2624
+2026-07-23 17:06:17,967 [INFO] Generating batch 3/82 (32 prompts)
+2026-07-23 17:06:29,077 [INFO] Saved progress: 96/2624
+2026-07-23 17:06:29,078 [INFO] Generating batch 4/82 (32 prompts)
+2026-07-23 17:06:40,133 [INFO] Saved progress: 128/2624
+2026-07-23 17:06:40,134 [INFO] Generating batch 5/82 (32 prompts)
+2026-07-23 17:06:51,564 [INFO] Saved progress: 160/2624
+2026-07-23 17:06:51,565 [INFO] Generating batch 6/82 (32 prompts)
+2026-07-23 17:07:03,182 [INFO] Saved progress: 192/2624
+2026-07-23 17:07:03,184 [INFO] Generating batch 7/82 (32 prompts)
+2026-07-23 17:07:14,840 [INFO] Saved progress: 224/2624
+2026-07-23 17:07:14,841 [INFO] Generating batch 8/82 (32 prompts)
+2026-07-23 17:07:26,831 [INFO] Saved progress: 256/2624
+2026-07-23 17:07:26,832 [INFO] Generating batch 9/82 (32 prompts)
+2026-07-23 17:07:38,284 [INFO] Saved progress: 288/2624
+2026-07-23 17:07:38,285 [INFO] Generating batch 10/82 (32 prompts)
+2026-07-23 17:07:49,566 [INFO] Saved progress: 320/2624
+2026-07-23 17:07:49,567 [INFO] Generating batch 11/82 (32 prompts)
+2026-07-23 17:08:00,689 [INFO] Saved progress: 352/2624
+2026-07-23 17:08:00,690 [INFO] Generating batch 12/82 (32 prompts)
+2026-07-23 17:08:12,350 [INFO] Saved progress: 384/2624
+2026-07-23 17:08:12,352 [INFO] Generating batch 13/82 (32 prompts)
+2026-07-23 17:08:24,378 [INFO] Saved progress: 416/2624
+2026-07-23 17:08:24,379 [INFO] Generating batch 14/82 (32 prompts)
+2026-07-23 17:08:36,172 [INFO] Saved progress: 448/2624
+2026-07-23 17:08:36,173 [INFO] Generating batch 15/82 (32 prompts)
+2026-07-23 17:08:47,834 [INFO] Saved progress: 480/2624
+2026-07-23 17:08:47,836 [INFO] Generating batch 16/82 (32 prompts)
+2026-07-23 17:08:58,743 [INFO] Saved progress: 512/2624
+2026-07-23 17:08:58,744 [INFO] Generating batch 17/82 (32 prompts)
+2026-07-23 17:09:10,122 [INFO] Saved progress: 544/2624
+2026-07-23 17:09:10,123 [INFO] Generating batch 18/82 (32 prompts)
+2026-07-23 17:09:21,486 [INFO] Saved progress: 576/2624
+2026-07-23 17:09:21,487 [INFO] Generating batch 19/82 (32 prompts)
+2026-07-23 17:09:32,855 [INFO] Saved progress: 608/2624
+2026-07-23 17:09:32,857 [INFO] Generating batch 20/82 (32 prompts)
+2026-07-23 17:09:43,805 [INFO] Saved progress: 640/2624
+2026-07-23 17:09:43,806 [INFO] Generating batch 21/82 (32 prompts)
+2026-07-23 17:09:55,311 [INFO] Saved progress: 672/2624
+2026-07-23 17:09:55,313 [INFO] Generating batch 22/82 (32 prompts)
+2026-07-23 17:10:06,672 [INFO] Saved progress: 704/2624
+2026-07-23 17:10:06,673 [INFO] Generating batch 23/82 (32 prompts)
+2026-07-23 17:10:18,388 [INFO] Saved progress: 736/2624
+2026-07-23 17:10:18,389 [INFO] Generating batch 24/82 (32 prompts)
+2026-07-23 17:10:29,565 [INFO] Saved progress: 768/2624
+2026-07-23 17:10:29,567 [INFO] Generating batch 25/82 (32 prompts)
+2026-07-23 17:10:41,141 [INFO] Saved progress: 800/2624
+2026-07-23 17:10:41,143 [INFO] Generating batch 26/82 (32 prompts)
+2026-07-23 17:10:52,041 [INFO] Saved progress: 832/2624
+2026-07-23 17:10:52,043 [INFO] Generating batch 27/82 (32 prompts)
+2026-07-23 17:11:03,254 [INFO] Saved progress: 864/2624
+2026-07-23 17:11:03,255 [INFO] Generating batch 28/82 (32 prompts)
+2026-07-23 17:11:14,546 [INFO] Saved progress: 896/2624
+2026-07-23 17:11:14,547 [INFO] Generating batch 29/82 (32 prompts)
+2026-07-23 17:11:26,207 [INFO] Saved progress: 928/2624
+2026-07-23 17:11:26,208 [INFO] Generating batch 30/82 (32 prompts)
+2026-07-23 17:11:38,285 [INFO] Saved progress: 960/2624
+2026-07-23 17:11:38,286 [INFO] Generating batch 31/82 (32 prompts)
+2026-07-23 17:11:50,077 [INFO] Saved progress: 992/2624
+2026-07-23 17:11:50,078 [INFO] Generating batch 32/82 (32 prompts)
+2026-07-23 17:12:03,523 [INFO] Saved progress: 1024/2624
+2026-07-23 17:12:03,524 [INFO] Generating batch 33/82 (32 prompts)
+2026-07-23 17:12:14,867 [INFO] Saved progress: 1056/2624
+2026-07-23 17:12:14,868 [INFO] Generating batch 34/82 (32 prompts)
+2026-07-23 17:12:25,772 [INFO] Saved progress: 1088/2624
+2026-07-23 17:12:25,774 [INFO] Generating batch 35/82 (32 prompts)
+2026-07-23 17:12:37,305 [INFO] Saved progress: 1120/2624
+2026-07-23 17:12:37,306 [INFO] Generating batch 36/82 (32 prompts)
+2026-07-23 17:12:48,496 [INFO] Saved progress: 1152/2624
+2026-07-23 17:12:48,497 [INFO] Generating batch 37/82 (32 prompts)
+2026-07-23 17:13:00,855 [INFO] Saved progress: 1184/2624
+2026-07-23 17:13:00,856 [INFO] Generating batch 38/82 (32 prompts)
+2026-07-23 17:13:12,030 [INFO] Saved progress: 1216/2624
+2026-07-23 17:13:12,031 [INFO] Generating batch 39/82 (32 prompts)
+2026-07-23 17:13:23,044 [INFO] Saved progress: 1248/2624
+2026-07-23 17:13:23,046 [INFO] Generating batch 40/82 (32 prompts)
+2026-07-23 17:13:35,091 [INFO] Saved progress: 1280/2624
+2026-07-23 17:13:35,093 [INFO] Generating batch 41/82 (32 prompts)
+2026-07-23 17:13:46,836 [INFO] Saved progress: 1312/2624
+2026-07-23 17:13:46,838 [INFO] Generating batch 42/82 (32 prompts)
+2026-07-23 17:13:58,344 [INFO] Saved progress: 1344/2624
+2026-07-23 17:13:58,345 [INFO] Generating batch 43/82 (32 prompts)
+2026-07-23 17:14:09,665 [INFO] Saved progress: 1376/2624
+2026-07-23 17:14:09,667 [INFO] Generating batch 44/82 (32 prompts)
+2026-07-23 17:14:21,454 [INFO] Saved progress: 1408/2624
+2026-07-23 17:14:21,455 [INFO] Generating batch 45/82 (32 prompts)
+2026-07-23 17:14:33,260 [INFO] Saved progress: 1440/2624
+2026-07-23 17:14:33,262 [INFO] Generating batch 46/82 (32 prompts)
+2026-07-23 17:14:44,805 [INFO] Saved progress: 1472/2624
+2026-07-23 17:14:44,806 [INFO] Generating batch 47/82 (32 prompts)
+2026-07-23 17:14:56,907 [INFO] Saved progress: 1504/2624
+2026-07-23 17:14:56,909 [INFO] Generating batch 48/82 (32 prompts)
+2026-07-23 17:15:07,944 [INFO] Saved progress: 1536/2624
+2026-07-23 17:15:07,945 [INFO] Generating batch 49/82 (32 prompts)
+2026-07-23 17:15:19,575 [INFO] Saved progress: 1568/2624
+2026-07-23 17:15:19,577 [INFO] Generating batch 50/82 (32 prompts)
+2026-07-23 17:15:32,336 [INFO] Saved progress: 1600/2624
+2026-07-23 17:15:32,337 [INFO] Generating batch 51/82 (32 prompts)
+2026-07-23 17:15:43,806 [INFO] Saved progress: 1632/2624
+2026-07-23 17:15:43,807 [INFO] Generating batch 52/82 (32 prompts)
+2026-07-23 17:15:55,228 [INFO] Saved progress: 1664/2624
+2026-07-23 17:15:55,229 [INFO] Generating batch 53/82 (32 prompts)
+2026-07-23 17:16:06,289 [INFO] Saved progress: 1696/2624
+2026-07-23 17:16:06,291 [INFO] Generating batch 54/82 (32 prompts)
+2026-07-23 17:16:17,351 [INFO] Saved progress: 1728/2624
+2026-07-23 17:16:17,353 [INFO] Generating batch 55/82 (32 prompts)
+2026-07-23 17:16:28,710 [INFO] Saved progress: 1760/2624
+2026-07-23 17:16:28,711 [INFO] Generating batch 56/82 (32 prompts)
+2026-07-23 17:16:40,236 [INFO] Saved progress: 1792/2624
+2026-07-23 17:16:40,238 [INFO] Generating batch 57/82 (32 prompts)
+2026-07-23 17:16:51,362 [INFO] Saved progress: 1824/2624
+2026-07-23 17:16:51,363 [INFO] Generating batch 58/82 (32 prompts)
+2026-07-23 17:17:02,862 [INFO] Saved progress: 1856/2624
+2026-07-23 17:17:02,863 [INFO] Generating batch 59/82 (32 prompts)
+2026-07-23 17:17:14,704 [INFO] Saved progress: 1888/2624
+2026-07-23 17:17:14,705 [INFO] Generating batch 60/82 (32 prompts)
+2026-07-23 17:17:26,141 [INFO] Saved progress: 1920/2624
+2026-07-23 17:17:26,142 [INFO] Generating batch 61/82 (32 prompts)
+2026-07-23 17:17:37,771 [INFO] Saved progress: 1952/2624
+2026-07-23 17:17:37,772 [INFO] Generating batch 62/82 (32 prompts)
+2026-07-23 17:17:48,247 [INFO] Saved progress: 1984/2624
+2026-07-23 17:17:48,248 [INFO] Generating batch 63/82 (32 prompts)
+2026-07-23 17:17:59,252 [INFO] Saved progress: 2016/2624
+2026-07-23 17:17:59,253 [INFO] Generating batch 64/82 (32 prompts)
+2026-07-23 17:18:10,532 [INFO] Saved progress: 2048/2624
+2026-07-23 17:18:10,533 [INFO] Generating batch 65/82 (32 prompts)
+2026-07-23 17:18:22,138 [INFO] Saved progress: 2080/2624
+2026-07-23 17:18:22,139 [INFO] Generating batch 66/82 (32 prompts)
+2026-07-23 17:18:34,157 [INFO] Saved progress: 2112/2624
+2026-07-23 17:18:34,158 [INFO] Generating batch 67/82 (32 prompts)
+2026-07-23 17:18:48,249 [INFO] Saved progress: 2144/2624
+2026-07-23 17:18:48,251 [INFO] Generating batch 68/82 (32 prompts)
+2026-07-23 17:18:59,730 [INFO] Saved progress: 2176/2624
+2026-07-23 17:18:59,732 [INFO] Generating batch 69/82 (32 prompts)
+2026-07-23 17:19:11,034 [INFO] Saved progress: 2208/2624
+2026-07-23 17:19:11,035 [INFO] Generating batch 70/82 (32 prompts)
+2026-07-23 17:19:22,203 [INFO] Saved progress: 2240/2624
+2026-07-23 17:19:22,205 [INFO] Generating batch 71/82 (32 prompts)
+2026-07-23 17:19:33,363 [INFO] Saved progress: 2272/2624
+2026-07-23 17:19:33,365 [INFO] Generating batch 72/82 (32 prompts)
+2026-07-23 17:19:44,583 [INFO] Saved progress: 2304/2624
+2026-07-23 17:19:44,585 [INFO] Generating batch 73/82 (32 prompts)
+2026-07-23 17:19:56,714 [INFO] Saved progress: 2336/2624
+2026-07-23 17:19:56,716 [INFO] Generating batch 74/82 (32 prompts)
+2026-07-23 17:20:08,403 [INFO] Saved progress: 2368/2624
+2026-07-23 17:20:08,404 [INFO] Generating batch 75/82 (32 prompts)
+2026-07-23 17:20:19,877 [INFO] Saved progress: 2400/2624
+2026-07-23 17:20:19,878 [INFO] Generating batch 76/82 (32 prompts)
+2026-07-23 17:20:32,235 [INFO] Saved progress: 2432/2624
+2026-07-23 17:20:32,236 [INFO] Generating batch 77/82 (32 prompts)
+2026-07-23 17:20:43,288 [INFO] Saved progress: 2464/2624
+2026-07-23 17:20:43,290 [INFO] Generating batch 78/82 (32 prompts)
+2026-07-23 17:20:54,820 [INFO] Saved progress: 2496/2624
+2026-07-23 17:20:54,821 [INFO] Generating batch 79/82 (32 prompts)
+2026-07-23 17:21:07,103 [INFO] Saved progress: 2528/2624
+2026-07-23 17:21:07,105 [INFO] Generating batch 80/82 (32 prompts)
+2026-07-23 17:21:18,832 [INFO] Saved progress: 2560/2624
+2026-07-23 17:21:18,833 [INFO] Generating batch 81/82 (32 prompts)
+2026-07-23 17:21:29,641 [INFO] Saved progress: 2592/2624
+2026-07-23 17:21:29,642 [INFO] Generating batch 82/82 (32 prompts)
+2026-07-23 17:21:40,720 [INFO] Saved progress: 2624/2624
+2026-07-23 17:21:40,720 [INFO] Done. Total outputs: 2624

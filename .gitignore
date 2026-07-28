@@ -1,0 +1,32 @@
+# 生成数据（保留 output 下的脚本、probe 报告与日志）
+output/**/*.json
+output/**/*.dat
+!output/probe/**/*.json
+
+# 嵌入与模型产物
+*.npy
+*.pt
+*.pth
+models/
+
+# DBpedia 转储数据（仅保留脚本，数据需自行下载）
+dumps/dbpedia_files/*.ttl
+dumps/dbpedia_files/*.owl
+dumps/dbpedia_files/bz2_and_zip/
+dumps/dbpedia_files/index/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+venv_data/
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/

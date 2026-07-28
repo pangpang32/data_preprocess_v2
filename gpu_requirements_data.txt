@@ -1,0 +1,32 @@
+# AutoDL 环境需要选择 PyTorch / 2.5.1 / 3.12(ubuntu22.04) / 12.4
+# torch 是 AutoDL 环境自带的，因此注释掉
+# torch==2.5.1
+
+# --- 核心推理 ---
+vllm==0.6.6
+transformers==4.48.0
+tokenizers==0.21.4
+huggingface_hub==0.36.2
+safetensors==0.8.0
+xformers==0.0.28.post3
+triton==3.1.0
+accelerate==0.34.0
+
+# --- 向量化 ---
+sentence-transformers==5.6.0
+scikit-learn==1.3.2
+scipy==1.11.4
+pandas==2.2.3
+
+# --- 基础工具 ---
+rdflib==7.6.0
+numpy==1.26.4
+tqdm==4.67.1
+requests==2.34.2
+regex==2026.7.10
+PyYAML==6.0.2
+psutil==6.1.0
+packaging==26.2
+filelock==3.29.7
+fsspec==2024.10.0
+Pillow==11.0.0

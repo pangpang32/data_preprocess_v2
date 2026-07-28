@@ -1,0 +1,567 @@
+{
+  "n_entities": 4660,
+  "n_with_categories": 3849,
+  "n_with_types": 3393,
+  "n_no_dbo_type": 392,
+  "n_only_owl_thing": 392,
+  "categories": {
+    "n_distinct": 14213,
+    "refs_total": 38407,
+    "avg_per_entity": 9.98,
+    "thresholds": [
+      {
+        "min_freq": 1,
+        "kept_objects": 14213,
+        "kept_edges": 38407
+      },
+      {
+        "min_freq": 2,
+        "kept_objects": 4899,
+        "kept_edges": 29093
+      },
+      {
+        "min_freq": 3,
+        "kept_objects": 2827,
+        "kept_edges": 24949
+      },
+      {
+        "min_freq": 5,
+        "kept_objects": 1490,
+        "kept_edges": 20469
+      },
+      {
+        "min_freq": 10,
+        "kept_objects": 595,
+        "kept_edges": 14775
+      },
+      {
+        "min_freq": 20,
+        "kept_objects": 201,
+        "kept_edges": 9574
+      },
+      {
+        "min_freq": 50,
+        "kept_objects": 43,
+        "kept_edges": 5110
+      },
+      {
+        "min_freq": 100,
+        "kept_objects": 15,
+        "kept_edges": 3301
+      }
+    ],
+    "top": [
+      [
+        "dbc:Living_people",
+        725
+      ],
+      [
+        "dbc:20th-century_American_novelists",
+        408
+      ],
+      [
+        "dbc:21st-century_American_novelists",
+        333
+      ],
+      [
+        "dbc:American_male_novelists",
+        286
+      ],
+      [
+        "dbc:20th-century_women_writers",
+        240
+      ],
+      [
+        "dbc:American_women_novelists",
+        204
+      ],
+      [
+        "dbc:21st-century_women_writers",
+        200
+      ],
+      [
+        "dbc:American_fantasy_novels",
+        149
+      ],
+      [
+        "dbc:American_science_fiction_writers",
+        115
+      ],
+      [
+        "dbc:American_children's_writers",
+        113
+      ],
+      [
+        "dbc:20th-century_English_novelists",
+        113
+      ],
+      [
+        "dbc:HarperCollins_books",
+        105
+      ],
+      [
+        "dbc:American_fantasy_writers",
+        104
+      ],
+      [
+        "dbc:Women_science_fiction_and_fantasy_writers",
+        103
+      ],
+      [
+        "dbc:20th-century_American_short_story_writers",
+        103
+      ],
+      [
+        "dbc:American_male_short_story_writers",
+        96
+      ],
+      [
+        "dbc:American_science_fiction_novels",
+        91
+      ],
+      [
+        "dbc:Postmodern_writers",
+        87
+      ],
+      [
+        "dbc:21st-century_American_short_story_writers",
+        83
+      ],
+      [
+        "dbc:Sequel_novels",
+        79
+      ],
+      [
+        "dbc:Novels_first_published_in_serial_form",
+        76
+      ],
+      [
+        "dbc:Fantasy_novels",
+        75
+      ],
+      [
+        "dbc:20th-century_American_writers",
+        74
+      ],
+      [
+        "dbc:Guggenheim_Fellows",
+        74
+      ],
+      [
+        "dbc:Fellows_of_the_Royal_Society_of_Literature",
+        70
+      ],
+      [
+        "dbc:2000s_fantasy_novels",
+        68
+      ],
+      [
+        "dbc:Tor_Books_books",
+        68
+      ],
+      [
+        "dbc:American_novels_adapted_into_films",
+        62
+      ],
+      [
+        "dbc:Women_children's_writers",
+        59
+      ],
+      [
+        "dbc:American_young_adult_novels",
+        59
+      ],
+      [
+        "dbc:American_essayists",
+        56
+      ],
+      [
+        "dbc:Book_publishing_companies_based_in_New_York",
+        55
+      ],
+      [
+        "dbc:1990s_science_fiction_novels",
+        55
+      ],
+      [
+        "dbc:Children's_fantasy_novels",
+        55
+      ],
+      [
+        "dbc:American_women_short_story_writers",
+        54
+      ],
+      [
+        "dbc:Writers_from_New_York_City",
+        54
+      ],
+      [
+        "dbc:Hugo_Award-winning_writers",
+        53
+      ],
+      [
+        "dbc:Book_publishing_companies_of_the_United_Kingdom",
+        53
+      ],
+      [
+        "dbc:Fantasy_novel_series",
+        52
+      ],
+      [
+        "dbc:Alfred_A._Knopf_books",
+        51
+      ],
+      [
+        "dbc:British_fantasy_novels",
+        50
+      ],
+      [
+        "dbc:20th-century_short_story_writers",
+        50
+      ],
+      [
+        "dbc:American_memoirists",
+        50
+      ],
+      [
+        "dbc:English_male_novelists",
+        49
+      ],
+      [
+        "dbc:National_Book_Award_winners",
+        48
+      ],
+      [
+        "dbc:Jewish_American_writers",
+        47
+      ],
+      [
+        "dbc:LGBT_novelists",
+        47
+      ],
+      [
+        "dbc:Del_Rey_books",
+        47
+      ],
+      [
+        "dbc:British_novels_adapted_into_films",
+        46
+      ],
+      [
+        "dbc:LGBT_writers_from_the_United_States",
+        46
+      ]
+    ]
+  },
+  "types": {
+    "n_distinct": 151,
+    "refs_total": 30499,
+    "avg_per_entity": 8.99,
+    "prefix_instance_counts": {
+      "dbo": 9031,
+      "wd": 8089,
+      "schema": 4570,
+      "owl": 3393,
+      "dul": 2732,
+      "bibo": 1517,
+      "foaf": 1164,
+      "d0": 3
+    },
+    "prefix_distinct_counts": {
+      "dbo": 78,
+      "wd": 49,
+      "schema": 13,
+      "dul": 7,
+      "owl": 1,
+      "foaf": 1,
+      "bibo": 1,
+      "d0": 1
+    },
+    "thresholds_all": [
+      {
+        "min_freq": 1,
+        "kept_objects": 151,
+        "kept_edges": 30499
+      },
+      {
+        "min_freq": 2,
+        "kept_objects": 86,
+        "kept_edges": 30434
+      },
+      {
+        "min_freq": 3,
+        "kept_objects": 73,
+        "kept_edges": 30408
+      },
+      {
+        "min_freq": 5,
+        "kept_objects": 64,
+        "kept_edges": 30378
+      },
+      {
+        "min_freq": 10,
+        "kept_objects": 47,
+        "kept_edges": 30283
+      },
+      {
+        "min_freq": 20,
+        "kept_objects": 45,
+        "kept_edges": 30261
+      },
+      {
+        "min_freq": 50,
+        "kept_objects": 30,
+        "kept_edges": 29765
+      },
+      {
+        "min_freq": 100,
+        "kept_objects": 26,
+        "kept_edges": 29562
+      }
+    ],
+    "thresholds_dbo_only": [
+      {
+        "min_freq": 1,
+        "kept_objects": 78,
+        "kept_edges": 9031
+      },
+      {
+        "min_freq": 2,
+        "kept_objects": 42,
+        "kept_edges": 8995
+      },
+      {
+        "min_freq": 3,
+        "kept_objects": 34,
+        "kept_edges": 8979
+      },
+      {
+        "min_freq": 5,
+        "kept_objects": 29,
+        "kept_edges": 8962
+      },
+      {
+        "min_freq": 10,
+        "kept_objects": 20,
+        "kept_edges": 8912
+      },
+      {
+        "min_freq": 20,
+        "kept_objects": 18,
+        "kept_edges": 8890
+      },
+      {
+        "min_freq": 50,
+        "kept_objects": 12,
+        "kept_edges": 8692
+      },
+      {
+        "min_freq": 100,
+        "kept_objects": 9,
+        "kept_edges": 8540
+      }
+    ],
+    "top": [
+      [
+        "owl:Thing",
+        3393
+      ],
+      [
+        "dbo:Work",
+        1546
+      ],
+      [
+        "wd:Q386724",
+        1546
+      ],
+      [
+        "schema:CreativeWork",
+        1546
+      ],
+      [
+        "dbo:WrittenWork",
+        1535
+      ],
+      [
+        "dbo:Book",
+        1517
+      ],
+      [
+        "bibo:Book",
+        1517
+      ],
+      [
+        "schema:Book",
+        1517
+      ],
+      [
+        "wd:Q571",
+        1517
+      ],
+      [
+        "dbo:Agent",
+        1362
+      ],
+      [
+        "dul:Agent",
+        1362
+      ],
+      [
+        "wd:Q24229398",
+        1362
+      ],
+      [
+        "wd:Q215627",
+        1164
+      ],
+      [
+        "schema:Person",
+        1164
+      ],
+      [
+        "dul:NaturalPerson",
+        1164
+      ],
+      [
+        "dbo:Person",
+        1164
+      ],
+      [
+        "foaf:Person",
+        1164
+      ],
+      [
+        "wd:Q5",
+        1164
+      ],
+      [
+        "dbo:Writer",
+        848
+      ],
+      [
+        "wd:Q36180",
+        848
+      ],
+      [
+        "wd:Q43229",
+        198
+      ],
+      [
+        "dul:SocialPerson",
+        198
+      ],
+      [
+        "schema:Organization",
+        198
+      ],
+      [
+        "dbo:Organisation",
+        198
+      ],
+      [
+        "dbo:Company",
+        194
+      ],
+      [
+        "dbo:Publisher",
+        176
+      ],
+      [
+        "dbo:Place",
+        51
+      ],
+      [
+        "dbo:Location",
+        51
+      ],
+      [
+        "schema:Place",
+        51
+      ],
+      [
+        "dbo:PopulatedPlace",
+        50
+      ],
+      [
+        "dbo:Country",
+        46
+      ],
+      [
+        "schema:Country",
+        46
+      ],
+      [
+        "wd:Q6256",
+        46
+      ],
+      [
+        "wd:Q901",
+        37
+      ],
+      [
+        "dbo:Scientist",
+        37
+      ],
+      [
+        "wd:Q4964182",
+        34
+      ],
+      [
+        "dbo:Philosopher",
+        34
+      ],
+      [
+        "dbo:FictionalCharacter",
+        31
+      ],
+      [
+        "wd:Q95074",
+        31
+      ],
+      [
+        "wd:Q34770",
+        27
+      ],
+      [
+        "schema:Language",
+        27
+      ],
+      [
+        "wd:Q315",
+        27
+      ],
+      [
+        "dbo:Language",
+        27
+      ],
+      [
+        "dbo:Artist",
+        23
+      ],
+      [
+        "wd:Q483501",
+        23
+      ],
+      [
+        "dbo:OfficeHolder",
+        12
+      ],
+      [
+        "dbo:ComicsCreator",
+        10
+      ],
+      [
+        "wd:Q1092563",
+        7
+      ],
+      [
+        "dbo:PeriodicalLiterature",
+        7
+      ],
+      [
+        "schema:MusicGroup",
+        7
+      ]
+    ]
+  }
+}

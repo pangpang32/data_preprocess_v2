@@ -1,0 +1,72 @@
+# KG 语义嵌入生成流水线配置，pwd 需位于 data_preprocess
+
+# 默认参数
+defaults:
+  llm:
+    model_name: "/root/autodl-tmp/data_preprocess/models/LLMs/Qwen2.5-14B-Instruct"  # 自行提前下载
+    tensor_parallel_size: 1    # 没抢到2卡4090，用了v-GPU48G，还打了补丁
+    gpu_memory_utilization: 0.9
+    dtype: "auto"
+    max_model_len: 16384       # 只是限制异常实体，对于短 token 实体，vLLM 会自动适配
+    max_tokens: 512            # LLM 输出 token 上限
+    temperature: 0.0
+    top_p: 0.001
+    batch_size: 32             # vLLM 一次处理的 prompt 数量
+    
+  vectorizer:
+    # model_name: "/root/autodl-tmp/data_preprocess/models/VECs/sup-simcse-roberta-large"   # 自行提前下载
+    model_name: "./models/VECs/sup-simcse-roberta-large"
+    batch_size: 32
+    max_length: 256
+    device: "auto"        # auto | cpu | cuda
+
+# DBpedia转储文件
+dbpedia:
+  dump_dir: "dumps/dbpedia_files"
+  idx_dir: "dumps/dbpedia_files/index"
+
+# 全局 prompt 模板（各数据集共享）
+prompt_config: "resources/mvp_prompts.json"
+
+# 谓词 -> 兼容 dbo 类型的兜底推断表（03 推断类型、02c 构建兜底类型边共用）
+role_type_map: "resources/role_type_map.json"
+
+# 数据集配置：主键为数据集名，二级键为子划分 label（main / one-hop / full / ...）
+# 脚本调用方式：--dataset dbbook2014-mine --label main
+datasets:
+  dbbook2014-mine:
+    main:
+      label: 0
+      base_dir: "../MINE/data/dbbook2014"
+      entity_list: "item_list.dat"                      # entity_id \t entity_uri
+      relation_list: "kg/one_hop_relations.dat"         # relation_uri \t relation_id
+      expand_map: "original_i2i_map.dat"                # original_item_id \t remap_item_id
+      kg_hop_triples: "kg/one_hop_triples.dat"          # 一跳三元组存储路径
+      kg_hop_entities: "kg/one_hop_entities.dat"        # 一跳实体存储路径
+      kg_hop_meta: "kg/one_hop_entity_meta.json"        # 一跳实体元数据（roles / connected_items / status）
+      n_entities: 2624                                  # 去重后的 item 数量
+      n_original_entities: 2680                         # 原始 item 数量（一跳 KG 邻居 ID 起始编号 = 该值）
+
+    one-hop:
+      label: 1
+      base_dir: "../MINE/data/dbbook2014/kg"
+      seed_datasets: ["main"]                           # 上游子划分（同一数据集内，有序）
+      entity_list: "one_hop_entities.dat"               # entity_id \t entity_uri
+      relation_list: ""                                 # 二跳关系占位（不同谓词有不同关系偏好，这可能会是一个列表）
+      n_entities: 4660                                  # entity 数量
+
+    # 合并子划分：main + one-hop 全部实体 + dbo/dbc 类别节点（02c 产物）
+    # 02c 在目标跳数 KG 完成后统一追加类型/类别边，类别节点 ID 从 7340 起连续分配
+    full:
+      label: 2
+      base_dir: "../MINE/data/dbbook2014/kg"
+      seed_datasets: ["main", "one-hop"]
+      entity_list: "full_entities.dat"                  # 02c 输出：全部实体（含类别节点）
+      relation_list: "full_relations.dat"               # 02c 输出：one_hop_relations + rdf:type / rdfs:subClassOf / dct:subject
+      kg_hop_triples: "full_triples.dat"                # 02c 输出：一跳三元组 + 类型/类别/类层级三元组
+      kg_hop_entities: "full_entities.dat"              # 同 entity_list
+      kg_hop_meta: "full_entity_meta.json"              # 02c 输出：全部实体元数据
+      n_entities: 9612                                  # 当前磁盘上的 full KG 为 min_cat_freq=5 版本；各版本实体数见 03_prompts/prompts_catfreq_split.json
+
+# 输出根目录
+output_base: "output"

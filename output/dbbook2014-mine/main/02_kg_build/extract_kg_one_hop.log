@@ -1,0 +1,261 @@
+2026-07-21 14:34:20,437 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 14:34:20,438 [INFO] Loaded r_map: 8 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 14:34:20,532 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 14:34:20,810 [INFO] Extracted 11104 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 14:34:20,811 [INFO] unique heads: 2609, unique tails: 4407
+2026-07-21 14:34:20,811 [INFO] entities with no selected relation: 15 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 14:34:20,812 [INFO]   dbo:author: 2649
+2026-07-21 14:34:20,813 [INFO]   dbo:literaryGenre: 2413
+2026-07-21 14:34:20,814 [INFO]   dbo:series: 788
+2026-07-21 14:34:20,814 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 14:34:20,816 [INFO]   dbo:previousWork: 889
+2026-07-21 14:34:20,818 [INFO]   dbo:publisher: 2274
+2026-07-21 14:34:20,819 [INFO]   dbo:language: 463
+2026-07-21 14:34:20,821 [INFO]   dbo:country: 462
+2026-07-21 14:44:44,596 [INFO] 
+
+
+==================================================
+2026-07-21 14:44:44,596 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 14:44:44,599 [INFO] Loaded r_map: 8 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 14:44:44,700 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 14:44:44,749 [INFO] Extracted 11104 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 14:44:44,749 [INFO] unique heads: 2609, unique tails: 4407
+2026-07-21 14:44:44,751 [INFO] entities with no selected relation: 15 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 14:44:44,758 [INFO]   dbo:author: 2649
+2026-07-21 14:44:44,759 [INFO]   dbo:literaryGenre: 2413
+2026-07-21 14:44:44,760 [INFO]   dbo:series: 788
+2026-07-21 14:44:44,763 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 14:44:44,770 [INFO]   dbo:previousWork: 889
+2026-07-21 14:44:44,771 [INFO]   dbo:publisher: 2274
+2026-07-21 14:44:44,772 [INFO]   dbo:language: 463
+2026-07-21 14:44:44,772 [INFO]   dbo:country: 462
+2026-07-21 15:32:28,084 [INFO] 
+
+
+==================================================
+2026-07-21 15:32:28,084 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 15:32:28,087 [INFO] Loaded r_map: 8 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 15:32:28,196 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 15:32:28,246 [INFO] Extracted 11114 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 15:32:28,247 [INFO] unique heads: 2614, unique tails: 4412
+2026-07-21 15:32:28,249 [INFO] entities with no selected relation: 10 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 15:32:28,256 [INFO]   dbo:author: 2654
+2026-07-21 15:32:28,257 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 15:32:28,258 [INFO]   dbo:series: 789
+2026-07-21 15:32:28,259 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 15:32:28,260 [INFO]   dbo:previousWork: 889
+2026-07-21 15:32:28,260 [INFO]   dbo:publisher: 2275
+2026-07-21 15:32:28,261 [INFO]   dbo:language: 464
+2026-07-21 15:32:28,262 [INFO]   dbo:country: 463
+2026-07-21 15:36:24,495 [INFO] 
+
+
+==================================================
+2026-07-21 15:36:24,495 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 15:36:24,498 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 15:36:24,598 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 15:36:24,649 [INFO] Extracted 11505 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 15:36:24,649 [INFO] unique heads: 2614, unique tails: 4655
+2026-07-21 15:36:24,651 [INFO] entities with no selected relation: 10 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 15:36:24,658 [INFO]   dbo:author: 2654
+2026-07-21 15:36:24,659 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 15:36:24,660 [INFO]   dbo:series: 789
+2026-07-21 15:36:24,661 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 15:36:24,661 [INFO]   dbo:previousWork: 889
+2026-07-21 15:36:24,662 [INFO]   dbo:publisher: 2275
+2026-07-21 15:36:24,663 [INFO]   dbo:language: 464
+2026-07-21 15:36:24,664 [INFO]   dbo:country: 463
+2026-07-21 15:36:24,665 [INFO]   dbo:nonFictionSubject: 391
+2026-07-21 15:50:40,107 [INFO] 
+
+
+==================================================
+2026-07-21 15:50:40,108 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 15:50:40,111 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 15:50:40,215 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 15:50:40,280 [INFO] Extracted 11510 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 15:50:40,281 [INFO] unique heads: 2618, unique tails: 4660
+2026-07-21 15:50:40,283 [INFO] entities with no selected relation: 6 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 15:50:40,290 [INFO]   dbo:author: 2659
+2026-07-21 15:50:40,290 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 15:50:40,293 [INFO]   dbo:series: 789
+2026-07-21 15:50:40,294 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 15:50:40,303 [INFO]   dbo:previousWork: 889
+2026-07-21 15:50:40,304 [INFO]   dbo:publisher: 2275
+2026-07-21 15:50:40,304 [INFO]   dbo:language: 464
+2026-07-21 15:50:40,305 [INFO]   dbo:country: 463
+2026-07-21 15:50:40,306 [INFO]   dbo:nonFictionSubject: 391
+2026-07-21 15:55:46,257 [INFO] 
+
+
+==================================================
+2026-07-21 15:55:46,258 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 15:55:46,267 [INFO] Loaded r_map: 8 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 15:55:46,365 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 15:55:46,418 [INFO] Extracted 11119 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 15:55:46,418 [INFO] unique heads: 2618, unique tails: 4417
+2026-07-21 15:55:46,421 [INFO] entities with no selected relation: 6 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 15:55:46,428 [INFO]   dbo:author: 2659
+2026-07-21 15:55:46,429 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 15:55:46,430 [INFO]   dbo:series: 789
+2026-07-21 15:55:46,430 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 15:55:46,431 [INFO]   dbo:previousWork: 889
+2026-07-21 15:55:46,432 [INFO]   dbo:publisher: 2275
+2026-07-21 15:55:46,433 [INFO]   dbo:language: 464
+2026-07-21 15:55:46,433 [INFO]   dbo:country: 463
+2026-07-21 15:58:05,063 [INFO] 
+
+
+==================================================
+2026-07-21 15:58:05,063 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 15:58:05,072 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 15:58:05,168 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 15:58:05,219 [INFO] Extracted 11510 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 15:58:05,220 [INFO] unique heads: 2618, unique tails: 4660
+2026-07-21 15:58:05,222 [INFO] entities with no selected relation: 6 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 15:58:05,229 [INFO]   dbo:author: 2659
+2026-07-21 15:58:05,230 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 15:58:05,231 [INFO]   dbo:series: 789
+2026-07-21 15:58:05,231 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 15:58:05,232 [INFO]   dbo:previousWork: 889
+2026-07-21 15:58:05,233 [INFO]   dbo:publisher: 2275
+2026-07-21 15:58:05,234 [INFO]   dbo:language: 464
+2026-07-21 15:58:05,235 [INFO]   dbo:country: 463
+2026-07-21 15:58:05,237 [INFO]   dbo:nonFictionSubject: 391
+2026-07-21 16:07:31,504 [INFO] 
+
+
+==================================================
+2026-07-21 16:07:31,504 [INFO] [02a] Start extracting one-hop KG for dbbook2014-mine
+2026-07-21 16:07:31,505 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 16:07:31,601 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 16:07:31,652 [INFO] Extracted 11510 triples -> ../MINE/data/dbbook2014\kg/kg_one_hop.dat
+2026-07-21 16:07:31,653 [INFO] unique heads: 2618, unique tails: 4660
+2026-07-21 16:07:31,655 [INFO] entities with no selected relation: 6 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 16:07:31,662 [INFO]   dbo:author: 2659
+2026-07-21 16:07:31,663 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 16:07:31,663 [INFO]   dbo:series: 789
+2026-07-21 16:07:31,664 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 16:07:31,665 [INFO]   dbo:previousWork: 889
+2026-07-21 16:07:31,666 [INFO]   dbo:publisher: 2275
+2026-07-21 16:07:31,666 [INFO]   dbo:language: 464
+2026-07-21 16:07:31,667 [INFO]   dbo:country: 463
+2026-07-21 16:07:31,668 [INFO]   dbo:nonFictionSubject: 391
+2026-07-21 17:45:15,624 [INFO] [02b] Start extracting final one-hop KG for dbbook2014-mine
+2026-07-21 17:49:24,641 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine
+2026-07-21 17:49:24,641 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 17:49:24,740 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 17:49:24,740 [INFO] Neighbor ID offset: 2624
+2026-07-21 17:49:24,858 [INFO] Wrote 11510 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-21 17:49:24,858 [INFO] Wrote 4660 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-21 17:49:24,861 [INFO] Seed entities with no selected edge: 6 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 17:49:24,868 [INFO]   dbo:author: 2659
+2026-07-21 17:49:24,868 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 17:49:24,869 [INFO]   dbo:series: 789
+2026-07-21 17:49:24,870 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 17:49:24,871 [INFO]   dbo:previousWork: 889
+2026-07-21 17:49:24,871 [INFO]   dbo:publisher: 2275
+2026-07-21 17:49:24,872 [INFO]   dbo:language: 464
+2026-07-21 17:49:24,873 [INFO]   dbo:country: 463
+2026-07-21 17:49:24,873 [INFO]   dbo:nonFictionSubject: 391
+2026-07-21 19:18:06,698 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine
+2026-07-21 19:18:06,699 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-21 19:18:06,803 [INFO] Loaded descriptions_b: 2624 entities
+2026-07-21 19:18:06,804 [INFO] Neighbor ID offset: 2624
+2026-07-21 19:18:07,038 [INFO] Wrote 11510 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-21 19:18:07,038 [INFO] Wrote 4660 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-21 19:18:07,040 [INFO] Wrote entity meta -> ../MINE/data/dbbook2014\kg/one_hop_entity_meta.json
+2026-07-21 19:18:07,047 [INFO] Seed entities with no selected edge: 6 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-21 19:18:07,048 [INFO]   dbo:author: 2659
+2026-07-21 19:18:07,049 [INFO]   dbo:literaryGenre: 2414
+2026-07-21 19:18:07,050 [INFO]   dbo:series: 789
+2026-07-21 19:18:07,053 [INFO]   dbo:subsequentWork: 1166
+2026-07-21 19:18:07,053 [INFO]   dbo:previousWork: 889
+2026-07-21 19:18:07,060 [INFO]   dbo:publisher: 2275
+2026-07-21 19:18:07,061 [INFO]   dbo:language: 464
+2026-07-21 19:18:07,061 [INFO]   dbo:country: 463
+2026-07-21 19:18:07,062 [INFO]   dbo:nonFictionSubject: 391
+2026-07-25 18:46:02,963 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine
+2026-07-25 18:46:02,980 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-25 18:46:03,076 [INFO] Loaded descriptions_json: 2680 entities
+2026-07-25 18:46:03,076 [INFO] Neighbor ID offset: 2680
+2026-07-25 18:46:03,376 [INFO] Wrote 11744 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-25 18:46:03,377 [INFO] Wrote 4660 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-25 18:46:03,378 [INFO] Wrote entity meta -> ../MINE/data/dbbook2014\kg/one_hop_entity_meta.json
+2026-07-25 18:46:03,382 [INFO] Seed entities with no selected edge: 7 -> output\dbbook2014-mine\02_kg_build\no_selected_relation_entities.dat
+2026-07-25 18:46:03,382 [INFO]   dbo:author: 2716
+2026-07-25 18:46:03,383 [INFO]   dbo:literaryGenre: 2467
+2026-07-25 18:46:03,384 [INFO]   dbo:series: 806
+2026-07-25 18:46:03,385 [INFO]   dbo:subsequentWork: 1189
+2026-07-25 18:46:03,385 [INFO]   dbo:previousWork: 907
+2026-07-25 18:46:03,386 [INFO]   dbo:publisher: 2319
+2026-07-25 18:46:03,387 [INFO]   dbo:language: 473
+2026-07-25 18:46:03,387 [INFO]   dbo:country: 471
+2026-07-25 18:46:03,388 [INFO]   dbo:nonFictionSubject: 396
+2026-07-26 22:35:00,851 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine-main
+2026-07-26 22:35:00,852 [INFO] Loaded r_map: 8 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-26 22:35:00,952 [INFO] Loaded descriptions_json: 2680 entities
+2026-07-26 22:35:00,952 [INFO] Neighbor ID offset: 2680
+2026-07-26 22:35:01,178 [INFO] Wrote 11348 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-26 22:35:01,178 [INFO] Wrote 4417 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-26 22:35:01,178 [INFO] Wrote entity meta -> ../MINE/data/dbbook2014\kg/one_hop_entity_meta.json
+2026-07-26 22:35:01,179 [INFO] Seed entities with no selected edge: 7 -> output\dbbook2014-mine-main\02_kg_build\no_selected_relation_entities.dat
+2026-07-26 22:35:01,179 [INFO]   dbo:author: 2716
+2026-07-26 22:35:01,179 [INFO]   dbo:literaryGenre: 2467
+2026-07-26 22:35:01,180 [INFO]   dbo:series: 806
+2026-07-26 22:35:01,180 [INFO]   dbo:subsequentWork: 1189
+2026-07-26 22:35:01,181 [INFO]   dbo:previousWork: 907
+2026-07-26 22:35:01,182 [INFO]   dbo:publisher: 2319
+2026-07-26 22:35:01,183 [INFO]   dbo:language: 473
+2026-07-26 22:35:01,183 [INFO]   dbo:country: 471
+2026-07-26 23:02:02,056 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine-main
+2026-07-26 23:02:02,056 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-26 23:02:02,156 [INFO] Loaded descriptions_json: 2680 entities
+2026-07-26 23:02:02,156 [INFO] Neighbor ID offset: 2680
+2026-07-26 23:02:02,398 [INFO] Wrote 11744 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-26 23:02:02,398 [INFO] Wrote 4660 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-26 23:02:02,402 [INFO] Wrote entity meta -> ../MINE/data/dbbook2014\kg/one_hop_entity_meta.json
+2026-07-26 23:02:02,409 [INFO] Seed entities with no selected edge: 7 -> output\dbbook2014-mine-main\02_kg_build\no_selected_relation_entities.dat
+2026-07-26 23:02:02,410 [INFO]   dbo:author: 2716
+2026-07-26 23:02:02,410 [INFO]   dbo:literaryGenre: 2467
+2026-07-26 23:02:02,411 [INFO]   dbo:series: 806
+2026-07-26 23:02:02,412 [INFO]   dbo:subsequentWork: 1189
+2026-07-26 23:02:02,412 [INFO]   dbo:previousWork: 907
+2026-07-26 23:02:02,416 [INFO]   dbo:publisher: 2319
+2026-07-26 23:02:02,422 [INFO]   dbo:language: 473
+2026-07-26 23:02:02,423 [INFO]   dbo:country: 471
+2026-07-26 23:02:02,424 [INFO]   dbo:nonFictionSubject: 396
+2026-07-27 01:23:14,102 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine-main
+2026-07-27 01:23:14,103 [INFO] Loaded r_map: 8 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-27 01:23:14,201 [INFO] Loaded descriptions_json: 2680 entities
+2026-07-27 01:23:14,202 [INFO] Neighbor ID offset: 2680
+2026-07-27 01:23:14,536 [INFO] Wrote 11348 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-27 01:23:14,536 [INFO] Wrote 4417 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-27 01:23:14,536 [INFO] Wrote entity meta -> ../MINE/data/dbbook2014\kg/one_hop_entity_meta.json
+2026-07-27 01:23:14,537 [INFO] Seed entities with no selected edge: 7 -> output\dbbook2014-mine-main\02_kg_build\no_selected_relation_entities.dat
+2026-07-27 01:23:14,538 [INFO]   dbo:author: 2716
+2026-07-27 01:23:14,539 [INFO]   dbo:literaryGenre: 2467
+2026-07-27 01:23:14,539 [INFO]   dbo:series: 806
+2026-07-27 01:23:14,540 [INFO]   dbo:subsequentWork: 1189
+2026-07-27 01:23:14,541 [INFO]   dbo:previousWork: 907
+2026-07-27 01:23:14,542 [INFO]   dbo:publisher: 2319
+2026-07-27 01:23:14,542 [INFO]   dbo:language: 473
+2026-07-27 01:23:14,543 [INFO]   dbo:country: 471
+2026-07-28 00:25:21,368 [INFO] [02a] Start extracting final one-hop KG for dbbook2014-mine-main
+2026-07-28 00:25:21,376 [INFO] Loaded r_map: 9 relations from ../MINE/data/dbbook2014\kg/r_map.dat
+2026-07-28 00:25:21,473 [INFO] Loaded descriptions_json: 2680 entities
+2026-07-28 00:25:21,473 [INFO] Neighbor ID offset: 2680
+2026-07-28 00:25:21,720 [INFO] Wrote 11744 triples -> ../MINE/data/dbbook2014\kg/one_hop_triples.dat
+2026-07-28 00:25:21,720 [INFO] Wrote 4660 unique neighbor entities -> ../MINE/data/dbbook2014\kg/one_hop_entities.dat
+2026-07-28 00:25:21,721 [INFO] Wrote entity meta -> ../MINE/data/dbbook2014\kg/one_hop_entity_meta.json
+2026-07-28 00:25:21,724 [INFO] Seed entities with no selected edge: 7 -> output\dbbook2014-mine-main\02_kg_build\no_selected_relation_entities.dat
+2026-07-28 00:25:21,725 [INFO]   dbo:author: 2716
+2026-07-28 00:25:21,725 [INFO]   dbo:literaryGenre: 2467
+2026-07-28 00:25:21,726 [INFO]   dbo:series: 806
+2026-07-28 00:25:21,726 [INFO]   dbo:subsequentWork: 1189
+2026-07-28 00:25:21,727 [INFO]   dbo:previousWork: 907
+2026-07-28 00:25:21,728 [INFO]   dbo:publisher: 2319
+2026-07-28 00:25:21,728 [INFO]   dbo:language: 473
+2026-07-28 00:25:21,729 [INFO]   dbo:country: 471
+2026-07-28 00:25:21,729 [INFO]   dbo:nonFictionSubject: 396

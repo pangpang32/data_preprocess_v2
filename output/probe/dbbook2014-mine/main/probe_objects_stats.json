@@ -1,0 +1,469 @@
+{
+  "n_entities": 2680,
+  "n_with_categories": 2658,
+  "n_with_types": 2680,
+  "n_no_dbo_type": 1,
+  "n_only_owl_thing": 1,
+  "categories": {
+    "n_distinct": 4955,
+    "refs_total": 16716,
+    "avg_per_entity": 6.29,
+    "thresholds": [
+      {
+        "min_freq": 1,
+        "kept_objects": 4955,
+        "kept_edges": 16716
+      },
+      {
+        "min_freq": 2,
+        "kept_objects": 2181,
+        "kept_edges": 13942
+      },
+      {
+        "min_freq": 3,
+        "kept_objects": 1345,
+        "kept_edges": 12270
+      },
+      {
+        "min_freq": 5,
+        "kept_objects": 757,
+        "kept_edges": 10273
+      },
+      {
+        "min_freq": 10,
+        "kept_objects": 322,
+        "kept_edges": 7457
+      },
+      {
+        "min_freq": 20,
+        "kept_objects": 116,
+        "kept_edges": 4764
+      },
+      {
+        "min_freq": 50,
+        "kept_objects": 23,
+        "kept_edges": 2066
+      },
+      {
+        "min_freq": 100,
+        "kept_objects": 7,
+        "kept_edges": 1006
+      }
+    ],
+    "top": [
+      [
+        "dbc:American_novels_adapted_into_films",
+        203
+      ],
+      [
+        "dbc:American_fantasy_novels",
+        172
+      ],
+      [
+        "dbc:American_science_fiction_novels",
+        150
+      ],
+      [
+        "dbc:Debut_novels",
+        148
+      ],
+      [
+        "dbc:Novels_first_published_in_serial_form",
+        123
+      ],
+      [
+        "dbc:HarperCollins_books",
+        107
+      ],
+      [
+        "dbc:British_novels_adapted_into_films",
+        103
+      ],
+      [
+        "dbc:American_young_adult_novels",
+        95
+      ],
+      [
+        "dbc:Alfred_A._Knopf_books",
+        91
+      ],
+      [
+        "dbc:Doubleday_(publisher)_books",
+        84
+      ],
+      [
+        "dbc:Fantasy_novels",
+        77
+      ],
+      [
+        "dbc:1990s_science_fiction_novels",
+        68
+      ],
+      [
+        "dbc:2000s_fantasy_novels",
+        65
+      ],
+      [
+        "dbc:Novels_set_in_New_York_City",
+        65
+      ],
+      [
+        "dbc:Tor_Books_books",
+        62
+      ],
+      [
+        "dbc:2005_American_novels",
+        62
+      ],
+      [
+        "dbc:American_children's_novels",
+        60
+      ],
+      [
+        "dbc:Dystopian_novels",
+        58
+      ],
+      [
+        "dbc:Metafictional_novels",
+        57
+      ],
+      [
+        "dbc:Viking_Press_books",
+        57
+      ],
+      [
+        "dbc:2003_American_novels",
+        55
+      ],
+      [
+        "dbc:Children's_fantasy_novels",
+        54
+      ],
+      [
+        "dbc:Novels_set_in_London",
+        50
+      ],
+      [
+        "dbc:Sequel_novels",
+        48
+      ],
+      [
+        "dbc:Del_Rey_books",
+        47
+      ],
+      [
+        "dbc:1990s_fantasy_novels",
+        46
+      ],
+      [
+        "dbc:British_children's_novels",
+        45
+      ],
+      [
+        "dbc:2001_American_novels",
+        43
+      ],
+      [
+        "dbc:1999_American_novels",
+        42
+      ],
+      [
+        "dbc:2002_American_novels",
+        42
+      ],
+      [
+        "dbc:Jonathan_Cape_books",
+        41
+      ],
+      [
+        "dbc:British_fantasy_novels",
+        41
+      ],
+      [
+        "dbc:English-language_books",
+        41
+      ],
+      [
+        "dbc:2006_American_novels",
+        40
+      ],
+      [
+        "dbc:2000s_science_fiction_novels",
+        40
+      ],
+      [
+        "dbc:Random_House_books",
+        39
+      ],
+      [
+        "dbc:Postmodern_novels",
+        39
+      ],
+      [
+        "dbc:English_novels",
+        39
+      ],
+      [
+        "dbc:Hugo_Award_for_Best_Novel-winning_works",
+        39
+      ],
+      [
+        "dbc:1960s_science_fiction_novels",
+        39
+      ],
+      [
+        "dbc:2004_American_novels",
+        39
+      ],
+      [
+        "dbc:Ace_Books_books",
+        37
+      ],
+      [
+        "dbc:Novels_about_orphans",
+        36
+      ],
+      [
+        "dbc:Historical_novels",
+        36
+      ],
+      [
+        "dbc:1980s_science_fiction_novels",
+        36
+      ],
+      [
+        "dbc:19th-century_British_novels",
+        35
+      ],
+      [
+        "dbc:Fiction_with_unreliable_narrators",
+        35
+      ],
+      [
+        "dbc:British_science_fiction_novels",
+        35
+      ],
+      [
+        "dbc:American_historical_novels",
+        34
+      ],
+      [
+        "dbc:1996_American_novels",
+        34
+      ]
+    ]
+  },
+  "types": {
+    "n_distinct": 27,
+    "refs_total": 23770,
+    "avg_per_entity": 8.87,
+    "prefix_instance_counts": {
+      "dbo": 7999,
+      "wd": 5321,
+      "schema": 5225,
+      "owl": 2658,
+      "bibo": 2567
+    },
+    "prefix_distinct_counts": {
+      "dbo": 12,
+      "wd": 10,
+      "schema": 3,
+      "bibo": 1,
+      "owl": 1
+    },
+    "thresholds_all": [
+      {
+        "min_freq": 1,
+        "kept_objects": 27,
+        "kept_edges": 23770
+      },
+      {
+        "min_freq": 2,
+        "kept_objects": 21,
+        "kept_edges": 23764
+      },
+      {
+        "min_freq": 3,
+        "kept_objects": 21,
+        "kept_edges": 23764
+      },
+      {
+        "min_freq": 5,
+        "kept_objects": 19,
+        "kept_edges": 23758
+      },
+      {
+        "min_freq": 10,
+        "kept_objects": 15,
+        "kept_edges": 23730
+      },
+      {
+        "min_freq": 20,
+        "kept_objects": 13,
+        "kept_edges": 23710
+      },
+      {
+        "min_freq": 50,
+        "kept_objects": 9,
+        "kept_edges": 23574
+      },
+      {
+        "min_freq": 100,
+        "kept_objects": 9,
+        "kept_edges": 23574
+      }
+    ],
+    "thresholds_dbo_only": [
+      {
+        "min_freq": 1,
+        "kept_objects": 12,
+        "kept_edges": 7999
+      },
+      {
+        "min_freq": 2,
+        "kept_objects": 9,
+        "kept_edges": 7996
+      },
+      {
+        "min_freq": 3,
+        "kept_objects": 9,
+        "kept_edges": 7996
+      },
+      {
+        "min_freq": 5,
+        "kept_objects": 8,
+        "kept_edges": 7993
+      },
+      {
+        "min_freq": 10,
+        "kept_objects": 6,
+        "kept_edges": 7979
+      },
+      {
+        "min_freq": 20,
+        "kept_objects": 5,
+        "kept_edges": 7969
+      },
+      {
+        "min_freq": 50,
+        "kept_objects": 3,
+        "kept_edges": 7901
+      },
+      {
+        "min_freq": 100,
+        "kept_objects": 3,
+        "kept_edges": 7901
+      }
+    ],
+    "top": [
+      [
+        "owl:Thing",
+        2658
+      ],
+      [
+        "schema:CreativeWork",
+        2657
+      ],
+      [
+        "dbo:Work",
+        2657
+      ],
+      [
+        "wd:Q386724",
+        2657
+      ],
+      [
+        "dbo:WrittenWork",
+        2656
+      ],
+      [
+        "dbo:Book",
+        2588
+      ],
+      [
+        "wd:Q571",
+        2567
+      ],
+      [
+        "schema:Book",
+        2567
+      ],
+      [
+        "bibo:Book",
+        2567
+      ],
+      [
+        "wd:Q245068",
+        38
+      ],
+      [
+        "dbo:Comic",
+        38
+      ],
+      [
+        "wd:Q25379",
+        30
+      ],
+      [
+        "dbo:Play",
+        30
+      ],
+      [
+        "dbo:Manga",
+        10
+      ],
+      [
+        "wd:Q8274",
+        10
+      ],
+      [
+        "dbo:PeriodicalLiterature",
+        9
+      ],
+      [
+        "wd:Q1092563",
+        9
+      ],
+      [
+        "dbo:Magazine",
+        5
+      ],
+      [
+        "wd:Q41298",
+        5
+      ],
+      [
+        "wd:Q11032",
+        3
+      ],
+      [
+        "dbo:Newspaper",
+        3
+      ],
+      [
+        "dbo:AcademicJournal",
+        1
+      ],
+      [
+        "wd:Q737498",
+        1
+      ],
+      [
+        "dbo:Song",
+        1
+      ],
+      [
+        "schema:MusicRecording",
+        1
+      ],
+      [
+        "wd:Q2188189",
+        1
+      ],
+      [
+        "dbo:MusicalWork",
+        1
+      ]
+    ]
+  }
+}

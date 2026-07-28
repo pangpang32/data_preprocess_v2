@@ -1,0 +1,7 @@
+{
+  "_comment": "连接谓词 -> 兼容 dbo 类型。02c 为没有任何具体 dbo 类型的实体推断兜底类型时使用。推断顺序：ontology.json 的 property_range 优先，本表仅用于补充（property_range 缺失）或覆盖（range 过于抽象）。",
+  "dbo:literaryGenre": "dbo:Genre",
+  "dbo:nonFictionSubject": "dbo:TopicalConcept",
+  "dbo:previousWork": "dbo:Book",
+  "dbo:subsequentWork": "dbo:Book"
+}

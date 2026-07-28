@@ -1,0 +1,213 @@
+2026-07-22 18:09:05,201 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine status=mapped lang=zh mode=debug
+2026-07-22 18:09:05,204 [INFO] Loaded prompt template: prompts/dbbook2014-mine/mapped_zh_v1.json
+2026-07-22 18:09:05,595 [INFO] Loaded descriptions: 2624
+2026-07-22 18:09:05,597 [INFO] Entities with status=mapped: 2624
+2026-07-22 18:09:05,597 [INFO] Debug mode: processing first 3 entities
+2026-07-22 18:09:05,939 [INFO] Built 3/3 prompts
+2026-07-22 18:09:05,946 [INFO] Saved prompts aggregate to output\dbbook2014-mine\02_prompts\prompts.json.debug
+2026-07-22 19:06:18,511 [INFO] 
+
+
+==================================================
+2026-07-22 19:06:18,511 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine status=mapped lang=zh mode=debug
+2026-07-22 19:06:18,513 [INFO] Loaded prompt template: prompts/dbbook2014-mine/mapped_zh_v1.json
+2026-07-22 19:06:18,620 [INFO] Loaded descriptions: 2624
+2026-07-22 19:06:18,621 [INFO] Entities with status=mapped: 2624
+2026-07-22 19:06:18,621 [INFO] Debug mode: processing first 10 entities
+2026-07-22 19:06:18,650 [INFO] Built 10/10 prompts
+2026-07-22 19:06:18,652 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 20:08:44,933 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 20:08:44,934 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 20:08:45,032 [INFO] Loaded descriptions: 2624
+2026-07-22 20:08:45,033 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 20:08:45,033 [INFO] Debug mode: processing first 2 entities
+2026-07-22 20:08:45,036 [INFO] Built 2/2 prompts
+2026-07-22 20:08:45,038 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 20:09:26,720 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 20:09:26,721 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 20:09:26,827 [INFO] Loaded descriptions: 2624
+2026-07-22 20:09:26,828 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 20:09:26,828 [INFO] Debug mode: processing first 1 entities
+2026-07-22 20:09:26,829 [INFO] Built 1/1 prompts
+2026-07-22 20:09:26,830 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 20:09:55,478 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 20:09:55,479 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 20:09:55,583 [INFO] Loaded descriptions: 2624
+2026-07-22 20:09:55,584 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 20:09:55,584 [INFO] Debug mode: processing first 1 entities
+2026-07-22 20:09:55,585 [INFO] Built 1/1 prompts
+2026-07-22 20:09:55,587 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 20:10:39,197 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 20:10:39,198 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 20:10:39,303 [INFO] Loaded descriptions: 2624
+2026-07-22 20:10:39,304 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 20:10:39,305 [INFO] Debug mode: processing first 1 entities
+2026-07-22 20:10:39,306 [INFO] Built 1/1 prompts
+2026-07-22 20:10:39,307 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 21:56:32,680 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 21:56:32,680 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 21:56:32,799 [INFO] Loaded descriptions: 2624
+2026-07-22 21:56:32,817 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-22 21:56:32,819 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 21:56:32,819 [INFO] Debug mode: processing first 1 entities
+2026-07-22 21:56:32,821 [INFO] Built 1/1 prompts
+2026-07-22 21:56:32,822 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 22:20:33,909 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 22:20:33,910 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 22:20:34,027 [INFO] Loaded descriptions: 2624
+2026-07-22 22:20:34,041 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-22 22:20:34,042 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 22:20:34,042 [INFO] Debug mode: processing first 1 entities
+2026-07-22 22:20:34,044 [INFO] Built 1/1 prompts
+2026-07-22 22:20:34,045 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 22:20:58,843 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 22:20:58,844 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 22:20:58,962 [INFO] Loaded descriptions: 2624
+2026-07-22 22:20:58,976 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-22 22:20:58,977 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 22:20:58,978 [INFO] Debug mode: processing first 1 entities
+2026-07-22 22:20:58,979 [INFO] Built 1/1 prompts
+2026-07-22 22:20:58,979 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 22:35:41,922 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-22 22:35:41,923 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 22:35:42,023 [INFO] Loaded descriptions: 2624
+2026-07-22 22:35:42,036 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-22 22:35:42,037 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 22:35:42,037 [INFO] Debug mode: processing first 10 entities
+2026-07-22 22:35:42,047 [INFO] Built 10/10 prompts
+2026-07-22 22:35:42,049 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-22 22:55:46,977 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=full
+2026-07-22 22:55:46,978 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-22 22:55:47,075 [INFO] Loaded descriptions: 2624
+2026-07-22 22:55:47,087 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-22 22:55:47,089 [INFO] Entities with status in ['mapped']: 2624
+2026-07-22 22:55:47,895 [INFO] Built 500/2624 prompts
+2026-07-22 22:55:48,472 [INFO] Built 1000/2624 prompts
+2026-07-22 22:55:49,005 [INFO] Built 1500/2624 prompts
+2026-07-22 22:55:49,617 [INFO] Built 2000/2624 prompts
+2026-07-22 22:55:50,103 [INFO] Built 2500/2624 prompts
+2026-07-22 22:55:50,225 [INFO] Built 2624/2624 prompts
+2026-07-22 22:55:50,392 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json
+2026-07-23 16:54:42,397 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-23 16:54:42,407 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-23 16:54:42,641 [INFO] Loaded descriptions: 2624
+2026-07-23 16:54:42,725 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-23 16:54:42,726 [INFO] Entities with status in ['mapped']: 2624
+2026-07-23 16:54:42,726 [INFO] Debug mode: processing first 10 entities
+2026-07-23 16:54:42,728 [INFO] Built 10/10 prompts
+2026-07-23 16:54:42,729 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-23 17:01:51,440 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=debug
+2026-07-23 17:01:51,440 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-23 17:01:51,542 [INFO] Loaded descriptions: 2624
+2026-07-23 17:01:51,555 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-23 17:01:51,556 [INFO] Entities with status in ['mapped']: 2624
+2026-07-23 17:01:51,557 [INFO] Debug mode: processing first 10 entities
+2026-07-23 17:01:51,559 [INFO] Built 10/10 prompts
+2026-07-23 17:01:51,561 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json.debug
+2026-07-23 17:04:49,613 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine statuses=['mapped'] mode=full
+2026-07-23 17:04:49,614 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/dbbook2014-mine/mvp_prompts.json
+2026-07-23 17:04:49,720 [INFO] Loaded descriptions: 2624
+2026-07-23 17:04:49,733 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-23 17:04:49,734 [INFO] Entities with status in ['mapped']: 2624
+2026-07-23 17:04:49,797 [INFO] Built 500/2624 prompts
+2026-07-23 17:04:49,854 [INFO] Built 1000/2624 prompts
+2026-07-23 17:04:49,907 [INFO] Built 1500/2624 prompts
+2026-07-23 17:04:49,963 [INFO] Built 2000/2624 prompts
+2026-07-23 17:04:50,031 [INFO] Built 2500/2624 prompts
+2026-07-23 17:04:50,045 [INFO] Built 2624/2624 prompts
+2026-07-23 17:04:50,540 [INFO] Saved prompts aggregate to output\dbbook2014-mine\03_prompts\prompts.json
+2026-07-25 23:41:42,691 [INFO] 
+
+
+==================================================
+2026-07-25 23:41:42,691 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine-main statuses=['mapped'] mode=full
+2026-07-25 23:41:42,692 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/mvp_prompts.json
+2026-07-25 23:41:42,793 [INFO] Loaded descriptions: 2680
+2026-07-25 23:41:42,805 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-25 23:41:42,807 [INFO] Entities with status in ['mapped']: 2680
+2026-07-25 23:41:42,857 [INFO] Built 500/2680 prompts
+2026-07-25 23:41:42,907 [INFO] Built 1000/2680 prompts
+2026-07-25 23:41:42,961 [INFO] Built 1500/2680 prompts
+2026-07-25 23:41:43,012 [INFO] Built 2000/2680 prompts
+2026-07-25 23:41:43,065 [INFO] Built 2500/2680 prompts
+2026-07-25 23:41:43,083 [INFO] Built 2680/2680 prompts
+2026-07-25 23:41:43,215 [INFO] Saved prompts aggregate to output\dbbook2014-mine-main\03_prompts\prompts.json
+2026-07-25 23:42:36,937 [INFO] 
+
+
+==================================================
+2026-07-25 23:42:36,937 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine-main statuses=['mapped'] mode=debug
+2026-07-25 23:42:36,947 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/mvp_prompts.json
+2026-07-25 23:42:37,045 [INFO] Loaded descriptions: 2680
+2026-07-25 23:42:37,058 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-25 23:42:37,060 [INFO] Entities with status in ['mapped']: 2680
+2026-07-25 23:42:37,060 [INFO] Debug mode: processing first 10 entities
+2026-07-25 23:42:37,063 [INFO] Built 10/10 prompts
+2026-07-25 23:42:37,065 [INFO] Saved prompts aggregate to output\dbbook2014-mine-main\03_prompts\prompts.json.debug
+2026-07-26 02:10:22,053 [INFO] 
+
+
+==================================================
+2026-07-26 02:10:22,053 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine-main mode=debug
+2026-07-26 02:10:22,053 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/mvp_prompts.json
+2026-07-26 02:10:22,158 [INFO] Loaded descriptions: 2680
+2026-07-26 02:10:22,173 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-26 02:10:22,174 [INFO] Status 'mapped': 2680 entities
+2026-07-26 02:10:22,174 [INFO] Status 'label_only': 0 entities
+2026-07-26 02:10:22,174 [INFO] Status 'struct_only': 0 entities
+2026-07-26 02:10:22,175 [INFO] Status 'failed': 0 entities
+2026-07-26 02:10:22,175 [INFO] Status 'no_uri': 0 entities
+2026-07-26 02:10:22,177 [INFO] Debug: saved 3 'mapped' prompts to output\dbbook2014-mine-main\03_prompts\prompts_mapped.debug.json
+2026-07-26 02:10:22,177 [INFO] Debug: saved 0 'label_only' prompts to output\dbbook2014-mine-main\03_prompts\prompts_label_only.debug.json
+2026-07-26 02:10:22,208 [INFO] Debug: saved 0 'struct_only' prompts to output\dbbook2014-mine-main\03_prompts\prompts_struct_only.debug.json
+2026-07-26 02:10:22,209 [INFO] Debug: saved 0 'failed' prompts to output\dbbook2014-mine-main\03_prompts\prompts_failed.debug.json
+2026-07-26 02:10:22,209 [INFO] Debug: saved 0 'no_uri' prompts to output\dbbook2014-mine-main\03_prompts\prompts_no_uri.debug.json
+2026-07-26 21:23:06,926 [INFO] 
+
+
+==================================================
+2026-07-26 21:23:06,926 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine-main mode=debug
+2026-07-26 21:23:06,927 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\prompts/mvp_prompts.json
+2026-07-26 21:23:07,027 [INFO] Loaded descriptions: 2680
+2026-07-26 21:23:07,043 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-26 21:23:07,044 [INFO] Status 'mapped': 2680 entities
+2026-07-26 21:23:07,044 [INFO] Status 'abstract_only': 0 entities
+2026-07-26 21:23:07,044 [INFO] Status 'label_only': 0 entities
+2026-07-26 21:23:07,044 [INFO] Status 'struct_only': 0 entities
+2026-07-26 21:23:07,045 [INFO] Status 'failed': 0 entities
+2026-07-26 21:23:07,045 [INFO] Status 'no_uri': 0 entities
+2026-07-26 21:23:07,046 [INFO] Debug: saved 3 'mapped' prompts to output\dbbook2014-mine-main\03_prompts\prompts_mapped.debug.json
+2026-07-26 21:23:07,047 [INFO] Debug: saved 0 'abstract_only' prompts to output\dbbook2014-mine-main\03_prompts\prompts_abstract_only.debug.json
+2026-07-26 21:23:07,047 [INFO] Debug: saved 0 'label_only' prompts to output\dbbook2014-mine-main\03_prompts\prompts_label_only.debug.json
+2026-07-26 21:23:07,048 [INFO] Debug: saved 0 'struct_only' prompts to output\dbbook2014-mine-main\03_prompts\prompts_struct_only.debug.json
+2026-07-26 21:23:07,048 [INFO] Debug: saved 0 'failed' prompts to output\dbbook2014-mine-main\03_prompts\prompts_failed.debug.json
+2026-07-26 21:23:07,049 [INFO] Debug: saved 0 'no_uri' prompts to output\dbbook2014-mine-main\03_prompts\prompts_no_uri.debug.json
+2026-07-28 07:57:12,786 [INFO] 
+
+
+==================================================
+2026-07-28 07:57:12,802 [INFO] [03 BUILD PROMPTS] dataset=dbbook2014-mine/main mode=debug
+2026-07-28 07:57:12,802 [INFO] Loaded prompt config: D:\New\AAA_workspace\paper\AAA_my_work\MyWork\work\data_preprocess\resources/mvp_prompts.json
+2026-07-28 07:57:12,908 [INFO] Loaded descriptions: 2680
+2026-07-28 07:57:12,921 [INFO] Loaded ontology: 760 classes, 2865 properties
+2026-07-28 07:57:12,922 [INFO] Loaded role_type_map: 4 entries from resources/role_type_map.json
+2026-07-28 07:57:12,977 [INFO] Merged own kg_hop_meta: 4660 entries
+2026-07-28 07:57:12,983 [INFO] Loaded entity_list: 2624 entries
+2026-07-28 07:57:12,986 [INFO] Status 'mapped': 2680 entities
+2026-07-28 07:57:12,986 [INFO] Status 'abstract_only': 0 entities
+2026-07-28 07:57:12,986 [INFO] Status 'label_only': 0 entities
+2026-07-28 07:57:12,986 [INFO] Status 'struct_only': 0 entities
+2026-07-28 07:57:12,986 [INFO] Status 'failed': 0 entities
+2026-07-28 07:57:12,986 [INFO] Status 'no_uri': 0 entities
+2026-07-28 07:57:12,987 [INFO] Status 'no_info': 0 entities
+2026-07-28 07:57:12,987 [INFO] Status 'dbo': 0 entities
+2026-07-28 07:57:12,987 [INFO] Status 'dbc': 0 entities
+2026-07-28 07:57:12,988 [INFO] Debug: saved 1 'mapped' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_mapped.debug.json
+2026-07-28 07:57:12,989 [INFO] Debug: saved 0 'abstract_only' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_abstract_only.debug.json
+2026-07-28 07:57:12,989 [INFO] Debug: saved 0 'label_only' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_label_only.debug.json
+2026-07-28 07:57:12,990 [INFO] Debug: saved 0 'struct_only' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_struct_only.debug.json
+2026-07-28 07:57:12,990 [INFO] Debug: saved 0 'failed' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_failed.debug.json
+2026-07-28 07:57:12,991 [INFO] Debug: saved 0 'no_uri' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_no_uri.debug.json
+2026-07-28 07:57:12,992 [INFO] Debug: saved 0 'no_info' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_no_info.debug.json
+2026-07-28 07:57:12,993 [INFO] Debug: saved 0 'dbo' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_dbo.debug.json
+2026-07-28 07:57:12,993 [INFO] Debug: saved 0 'dbc' prompts to output\dbbook2014-mine\main\03_prompts\prompts_test_dbc.debug.json

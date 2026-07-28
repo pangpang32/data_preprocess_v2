@@ -1,0 +1,26 @@
+2026-07-26 23:09:51,152 [INFO] 
+
+
+==================================================
+2026-07-26 23:09:51,153 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine-one-hop mode=full model=./models/VECs/sup-simcse-roberta-large
+2026-07-26 23:09:51,213 [INFO] Loaded 4660 LLM outputs
+2026-07-26 23:09:51,219 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-26 23:09:51,220 [INFO] Auto-selected device: cpu
+2026-07-26 23:09:51,223 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-26 23:09:58,021 [INFO] Encoding 4660 texts (max_length=256)
+2026-07-27 00:15:28,741 [INFO] Embeddings shape: (4660, 1024)
+2026-07-27 00:15:28,808 [INFO] Saved L2-normalized embeddings -> output\dbbook2014-mine-one-hop\05_embeddings\entity_embeddings.npy
+2026-07-27 00:15:28,835 [INFO] Saved non-L2 embeddings -> output\dbbook2014-mine-one-hop\05_embeddings\entity_embeddings_no_l2.npy
+2026-07-27 00:24:12,382 [INFO] 
+
+
+==================================================
+2026-07-27 00:24:12,382 [INFO] [05 VECTORIZE] dataset=dbbook2014-mine-one-hop mode=full model=./models/VECs/sup-simcse-roberta-large
+2026-07-27 00:24:12,441 [INFO] Loaded 4417 LLM outputs
+2026-07-27 00:24:12,446 [INFO] Loading embedding model: ./models/VECs/sup-simcse-roberta-large
+2026-07-27 00:24:12,447 [INFO] Auto-selected device: cpu
+2026-07-27 00:24:12,453 [INFO] No modules.json found for ./models/VECs/sup-simcse-roberta-large, initializing a new SentenceTransformer model.
+2026-07-27 00:24:13,407 [INFO] Encoding 4417 texts (max_length=256)
+2026-07-27 01:16:08,442 [INFO] Embeddings shape: (4417, 1024)
+2026-07-27 01:16:08,485 [INFO] Saved L2-normalized embeddings -> output\dbbook2014-mine-one-hop\05_embeddings\entity_embeddings.npy
+2026-07-27 01:16:08,498 [INFO] Saved non-L2 embeddings -> output\dbbook2014-mine-one-hop\05_embeddings\entity_embeddings_no_l2.npy

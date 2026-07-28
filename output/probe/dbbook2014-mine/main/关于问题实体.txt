@@ -1,0 +1,33 @@
+已按严重程度排序，26 个噪声实体的完整名单如上所示。🔴 高（9 个）是类型完全错误的实体（电影、杂志、报纸），🟡 中（11 个）是类型偏离但有一定关联的实体（漫画、戏剧），🟢 低（6 个）是书籍本身正确但有多形态建模的实体（有声读物）。
+
+| 严重 | URI                                                          | 情况说明                                                     |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 🔴    | http://dbpedia.org/resource/The_Shoes_of_the_Fisherman       | FilmURI 指向的是 1968 年电影，不是书籍。抽取到 director、producer、starring（7 条）、musicComposer、cinematography、distributor 等电影属性。Literal 中还有 budget=670 万、runtime=162 分钟。 |
+| 🔴    | http://dbpedia.org/resource/Foreign_Affairs                  | Magazine美国外交关系委员会出版的期刊，不是书籍。抽取到 editor、academicDiscipline。Literal 中有 issn、frequencyOfPublication、impactFactor、jstor、lccn、coden 等全套期刊属性。 |
+| 🔴    | http://dbpedia.org/resource/The_Guardian                     | Newspaper英国著名报纸，不是书籍。抽取到 format、foundedBy、owner、editor、headquarter、sisterNewspaper。Literal 中有 circulation。 |
+| 🔴    | http://dbpedia.org/resource/Weekender                        | Newspaper英国地方报纸（Torquay），不是书籍。抽取到 format、owner、editor、headquarter。 |
+| 🔴    | http://dbpedia.org/resource/Good_Housekeeping                | Magazine美国女性杂志，不是书籍。抽取到 city。Literal 中有 circulation、depictionDescription、imageSize、year。 |
+| 🔴    | http://dbpedia.org/resource/Sojourners                       | Magazine基督教杂志，不是书籍。抽取到 editor、city。Literal 中有 issn、circulation、depictionDescription。 |
+| 🔴    | http://dbpedia.org/resource/Inext                            | Newspaper印度报纸，不是书籍。抽取到 format。Literal 中有 circulation。 |
+| 🔴    | http://dbpedia.org/resource/Hit_Parader                      | Magazine摇滚音乐杂志，不是书籍。抽取到 city。Literal 中有 issn。 |
+| 🔴    | http://dbpedia.org/resource/Eternity_SF                      | Magazine科幻杂志，不是书籍。抽取到 city。                    |
+| 🟡    | http://dbpedia.org/resource/Crystal_Dragon                   | Manga漫画实体。dbo:magazine → Mystery Bonita（连载杂志）。漫画在 DBpedia 中的正确建模，但与书籍 KG 语义不匹配。 |
+| 🟡    | http://dbpedia.org/resource/Ghost_in_the_Shell_(manga)       | Manga漫画实体。dbo:magazine → Young Magazine（连载杂志）。   |
+| 🟡    | http://dbpedia.org/resource/Helter_Skelter_(manga)           | Manga漫画实体。dbo:magazine → Feel Young（连载杂志）。       |
+| 🟡    | http://dbpedia.org/resource/Happiness!_(visual_novel)        | Manga视觉小说/漫画实体。dbo:magazine → Monthly Comic Alive（连载杂志）。 |
+| 🟡    | http://dbpedia.org/resource/D.N.Angel                        | Manga漫画实体。dbo:magazine → Monthly Asuka（连载杂志）。Literal 中有 firstPublicationDate、lastPublicationDate。 |
+| 🟡    | http://dbpedia.org/resource/The_Flowers_of_Evil_(manga)      | Manga漫画实体。dbo:magazine → Bessatsu Shōnen Magazine（连载杂志）。Literal 中有 firstPublicationDate、lastPublicationDate。 |
+| 🟡    | http://dbpedia.org/resource/Oedipus_the_King                 | Play戏剧作品。dbo:originalLanguage → Classical Greek。戏剧在 DBpedia 中作为独立类型建模，与小说不同。Literal 中有 characterInPlay、settingOfPlay、premiereYear。 |
+| 🟡    | http://dbpedia.org/resource/Funeral_Games_(play)             | Play戏剧作品。dbo:originalLanguage → English。Literal 中有 characterInPlay、premiereDate、premiereYear。 |
+| 🟡    | http://dbpedia.org/resource/A_Doll's_House                   | Play戏剧作品。dbo:originalLanguage → Norwegian。Literal 中有 characterInPlay、settingOfPlay、premiereDate、premiereYear、subjectOfPlay。 |
+| 🟡    | http://dbpedia.org/resource/The_Miracle_Worker_(play)        | Play戏剧作品。dbo:originalLanguage → English。Literal 中有 characterInPlay、settingOfPlay、premiereDate、premiereYear。 |
+| 🟡    | http://dbpedia.org/resource/The_Bald_Soprano                 | Play戏剧作品。dbo:originalLanguage → Romanian, French。Literal 中有 characterInPlay、settingOfPlay、premiereDate、premiereYear。 |
+| 🟢    | http://dbpedia.org/resource/Life_Is_a_Dream                  | Audio书籍实体，但 DBpedia 同时建模了其有声读物版本。dbo:soundRecording → Life_Is_a_Dream__1。Literal 中有 settingOfPlay、premiereYear、subjectOfPlay。 |
+| 🟢    | http://dbpedia.org/resource/The_Legend_of_Sleepy_Hollow      | Audio书籍实体，但 DBpedia 同时建模了其有声读物版本。dbo:soundRecording → The_Legend_of_Sleepy_Hollow__1。Literal 中有 imdbId。 |
+| 🟢    | http://dbpedia.org/resource/Go_Down_Moses                    | Audio书籍实体，但 DBpedia 同时建模了其有声读物版本。dbo:soundRecording → Go_Down_Moses__1。 |
+| 🟢    | http://dbpedia.org/resource/Leaves_of_Grass                  | Audio书籍实体，但 DBpedia 同时建模了其有声读物版本（2 个录音版本）。dbo:soundRecording → Leaves_of_Grass__1 / __2。 |
+| 🟢    | http://dbpedia.org/resource/Generation_X:_Tales_for_an_Accelerated_Culture | Audio书籍实体，但 DBpedia 同时建模了其有声读物版本。dbo:soundRecording → Generation_X:_Tales_for_an_Accelerated_Culture__1。 |
+
+**图例：** Film 电影   Magazine 期刊/杂志   Newspaper 报纸   Manga 漫画   Play 戏剧   Audio 有声读物
+
+真正有问题的其实也就The Shoes of the Fisherman一部电影，或者说我只能修复它。其它的是来自于原数据集的噪声，我也没有办法去除。

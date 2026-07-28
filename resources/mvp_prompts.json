@@ -1,0 +1,135 @@
+{
+  "version": "1.1",
+  "language": "en",
+  "description": "MVP prompt templates for all entity statuses. Status-specific user templates share the same system prompt and output schema.",
+  "system": "You are an encyclopedia entity editor. Generate a semantic entity description and a set of attributive keywords for the given entity.\n\n## Output format (MUST follow strictly)\n\nUse XML-style tags with a fixed prefix to avoid collision with normal text. Each tag must appear on its own line, followed by a blank line, then the content. The parser will look for the exact strings `<<<TAG>>>` to split the output.\n\n```\n<<<SUMMARY>>>\n<Entity name> is a <deduced type>...\n\n<<<ATTRIBUTIVE>>>\nkeyword1, keyword2, keyword3\n```\n\n## Sections\n\n<<<SUMMARY>>>\nWrite exactly 2-3 separate sentences (about 120-180 tokens in total). Do NOT compress everything into a single long sentence, and do NOT include made-up concrete examples.\n\nTarget structure:\n1. First sentence: state what the entity is (name + type).\n2. Second sentence: describe its key attributes, context, or main themes.\n3. Third sentence (optional but preferred): mention a unique, significant, or notable aspect.\n\nPut the most semantically central information FIRST, because earlier tokens will be weighted more heavily by the downstream embedding model. Tone must be neutral and objective; do not use meta-phrases like \"Here is...\" or \"This is a description of...\".\n\n<<<ATTRIBUTIVE>>>\nList 3-5 keywords or short phrases describing themes, style, setting, mood, or other distinctive attributes. Separate items with commas. Example: war, peace, 19th century, Russian society.\n\n## Notes on input fields\n\n- `type` (from `rdf:type`) represents a curated ontology class. It is shown as a chain like `book > written work > work`, where the leftmost tag is the most concrete/direct class and the rightmost is the most abstract. It is the most reliable indicator of what kind of entity this is (e.g., book, person, place, organization).\n- `category` (from `dct:subject`) represents user-assigned Wikipedia categories. These can be noisy, overly specific, or only marginally related; use them cautiously and only when they reinforce the type or main theme.\n- `relations` are DBpedia object properties involving this entity. They are shown as `predicate: object` pairs. Prefer predicates that clarify the entity's role or identity.\n- `connected_item_descriptions` provide context for neighbor entities that lack direct information. Use them conservatively to infer what the entity is, but do not invent specific facts not supported by the input.",
+  "output_schema": {
+    "summary": {
+      "tag": "SUMMARY",
+      "type": "text",
+      "description": "2-3 sentence front-loaded core description for the embedding model."
+    },
+    "attributive_keywords": {
+      "tag": "ATTRIBUTIVE",
+      "type": "comma_separated_list",
+      "description": "3-5 keywords or phrases about themes, style, setting, mood."
+    }
+  },
+  "ontology_path": "resources/ontology.json",
+  "max_connected_items": {
+    "_comment": "build_connected_descriptions 展示的相连实体数量上限，按模板 status 分键，未配置的用 default。类别节点（dbo/dbc）需要更多成员样本归纳主题。",
+    "default": 3,
+    "dbo": 10,
+    "dbc": 10
+  },
+  "max_connected_summary_chars": {
+    "_comment": "相连实体摘要的截断字符数（词边界截断），按模板 status 分键，0 = 不截断。max_model_len 已提到 8192，为保留语义默认不截断；若云端出现长度或 OOM 问题，可将 dbo/dbc 设为 500。",
+    "default": 0,
+    "dbo": 0,
+    "dbc": 0
+  },
+  "relation_priority": {
+    "_comment": "按 数据集名 -> 子划分 label 两级分键（如 dbbook2014-mine: main/one-hop/full）。未匹配到具体配置时回退到 default。数字越小越靠前；未列出的 label 默认优先级为 50，并按字母序稳定排列。",
+    "default": {
+      "_comment": "跨数据集通用兜底：只强制 type 最前、category 最后。",
+      "type": 0,
+      "category": 100
+    },
+    "dbbook2014-mine": {
+      "main": {
+        "type": 0,
+        "author": 1,
+        "publisher": 2,
+        "series": 3,
+        "literary genre": 4,
+        "genre": 5,
+        "subject": 6,
+        "language": 7,
+        "country": 8,
+        "previous work": 9,
+        "subsequent work": 10,
+        "category": 100
+      },
+      "one-hop": {
+        "_comment": "一跳邻居实体类型混杂（书、人、地点、组织等）。priority 优先保留能说明实体类别的核心关系：类型/作者/出版商/职业/系列等。",
+        "type": 0,
+        "literary genre": 1,
+        "genre": 1,
+        "author": 2,
+        "publisher": 3,
+        "occupation": 4,
+        "series": 5,
+        "notable work": 6,
+        "subsequent work": 7,
+        "previous work": 8,
+        "country": 9,
+        "language": 10,
+        "birth place": 11,
+        "death place": 12,
+        "media type": 13,
+        "influenced by": 14,
+        "influenced": 15,
+        "category": 100
+      },
+      "full": {
+        "_comment": "02c 合并子划分：main + one-hop + dbo/dbc 类别节点。优先级暂沿用 one-hop；类别节点的类层级（subclass of）关系由 02c/03 渲染时保证靠前。",
+        "type": 0,
+        "literary genre": 1,
+        "genre": 1,
+        "author": 2,
+        "publisher": 3,
+        "occupation": 4,
+        "series": 5,
+        "notable work": 6,
+        "subsequent work": 7,
+        "previous work": 8,
+        "country": 9,
+        "language": 10,
+        "birth place": 11,
+        "death place": 12,
+        "media type": 13,
+        "influenced by": 14,
+        "influenced": 15,
+        "category": 100
+      }
+    }
+  },
+  "templates": {
+    "mapped": {
+      "description": "Entity with label, abstract, and structural relations. Use the same high-quality template as seed items.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nDBpedia abstract:\n{abstract}\n\nKnown relations:\n{relations}\n\n{inferred_types}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format."
+    },
+    "abstract_only": {
+      "description": "Entity with a DBpedia abstract but no structured types/categories/relations. Rely mainly on the abstract; connected items and general knowledge (when consistent) may supplement.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: abstract_only (label and abstract available; structured types/relations missing)\n\nDBpedia abstract:\n{abstract}\n\nThis entity has a DBpedia abstract but no structured types or relations in the local dump.\n\n{inferred_types}\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format, primarily based on the abstract. You may also use connected items as clues; when consistent with these clues, you may draw on your general knowledge."
+    },
+    "label_only": {
+      "description": "Entity with only a label but no abstract or structural info. Use the label and connected items as clues; general knowledge is also allowed when consistent.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: label_only (only label available; abstract and structured relations missing)\n\nThis entity has only a known label in the local DBpedia dump.\n\nKnown relations:\n{relations}\n\n{inferred_types}\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format. Use the entity name and the connected items as clues. If many connected items exist, only a subset is shown above due to prompt length limits; when consistent with these clues, you may also draw on your general knowledge."
+    },
+    "struct_only": {
+      "description": "Entity without abstract but with some types/categories/relations. Use structure and connected items as clues; general knowledge is also allowed when consistent.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: struct_only (label and structured relations available; abstract missing)\n\nThis entity lacks a DBpedia abstract but has some structured information.\n\nKnown relations:\n{relations}\n\n{inferred_types}\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format. You may use the structured relations and connected items as clues; when consistent with these clues, you may also draw on your general knowledge."
+    },
+    "failed": {
+      "description": "Entity with almost no direct information. Rely on connected items as clues; be conservative, but general knowledge (when consistent) is allowed.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: failed (URI matched but no information in the local dump)\n\nThis entity could not be matched in the local DBpedia dump.\n\nKnown relations:\n{relations}\n\n{inferred_types}\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format. Be conservative and avoid hallucination. Use the entity name and connected items as clues; when consistent with these clues, you may also draw on your general knowledge."
+    },
+    "no_uri": {
+      "description": "Entity without a URI. Generate a minimal placeholder from the label only; general knowledge may help when the name is unambiguous.",
+      "user_template": "Entity name: {name}\n\nInformation richness: no_uri (no URI available)\n\nThis entity has no known URI.\n\nPlease produce a minimal SUMMARY and ATTRIBUTIVE based solely on the name. When the name is unambiguous, you may draw on your general knowledge."
+    },
+    "no_info": {
+      "description": "Generic fallback for entities whose URI namespace carries no label/abstract (prefixes other than dbo/dbc). Infer from the entity name and connected items; be conservative.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: no_info (URI namespace carries no label or abstract in the local dump)\n\nThis entity belongs to a namespace that provides no textual description in the local DBpedia dump.\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format. Be conservative and avoid hallucination. Use the entity name and the connected items as clues; when consistent with these clues, you may also draw on your general knowledge."
+    },
+    "dbo": {
+      "description": "DBpedia ontology class node (from rdf:type, transitive closure). No label/abstract, but these are curated standard ontology concepts, so general knowledge is reliable. Use the class hierarchy and member entities as clues.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: dbo (DBpedia ontology class; no label or abstract in the local dump)\n\nThis entity is a curated class of the DBpedia ontology, i.e. a category of entities rather than a concrete entity itself.\n\nKnown relations (class hierarchy):\n{relations}\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format. Describe what this ontology class means and what kind of entities instantiate it, using the class hierarchy and the connected member entities as clues. DBpedia ontology classes are standard, curated concepts, so you may rely on your general knowledge."
+    },
+    "dbc": {
+      "description": "Wikipedia category node (from dct:subject). User-assigned and noisy; infer the shared theme from the member entities rather than trusting the category name alone.",
+      "user_template": "Entity name: {name}\nURI: {uri}\n\nInformation richness: dbc (Wikipedia category; user-assigned, no label or abstract in the local dump)\n\nThis entity is a Wikipedia category: a user-assigned tag rather than a curated ontology class. Its name may be noisy, overly specific, or administrative.\n\n{connected_item_descriptions}\n\nPlease produce the SUMMARY and ATTRIBUTIVE sections in the required format. Infer the common theme shared by the connected member entities and describe what this category groups together. Do not over-interpret the exact category name when it conflicts with the member entities; when consistent with these clues, you may also draw on your general knowledge."
+    }
+  }
+}

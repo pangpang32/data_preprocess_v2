@@ -1,0 +1,208 @@
+predicate	entity_id	name	uri	value
+dbo:imdbId	15	Go Ask Alice	http://dbpedia.org/resource/Go_Ask_Alice	0068644
+dbo:abbreviation	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	Foreign Aff.
+dbo:frequencyOfPublication	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	Bimonthly
+dbo:firstPublicationYear	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	1922
+dbo:impactFactor	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	2.009
+dbo:impactFactorAsOf	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	2014
+dbo:jstor	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	00157120
+dbo:lccn	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	24009921
+dbo:coden	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	FRNAA3
+dbo:issn	48	Foreign Affairs	http://dbpedia.org/resource/Foreign_Affairs	0015-7120
+dbo:imdbId	81	Going Postal	http://dbpedia.org/resource/Going_Postal	1219817
+dbo:imdbId	82	Johnny and the Dead	http://dbpedia.org/resource/Johnny_and_the_Dead	0294117
+dbo:imdbId	100	Jonathan Strange & Mr Norrell	http://dbpedia.org/resource/Jonathan_Strange_&_Mr_Norrell	tt2548418
+dbo:imdbId	145	I Am the Cheese	http://dbpedia.org/resource/I_Am_the_Cheese	0085706
+dbo:imdbId	176	Jennifer Government	http://dbpedia.org/resource/Jennifer_Government	0760314
+dbo:characterInPlay	231	A Man for All Seasons	http://dbpedia.org/resource/A_Man_for_All_Seasons	Signor Chapuys
+dbo:settingOfPlay	231	A Man for All Seasons	http://dbpedia.org/resource/A_Man_for_All_Seasons	Sixteenth century England
+dbo:premiereDate	231	A Man for All Seasons	http://dbpedia.org/resource/A_Man_for_All_Seasons	1960-07-01
+dbo:premiereYear	231	A Man for All Seasons	http://dbpedia.org/resource/A_Man_for_All_Seasons	1960
+dbo:characterInPlay	241	Rosencrantz and Guildenstern Are Dead	http://dbpedia.org/resource/Rosencrantz_and_Guildenstern_Are_Dead	Soldiers, courtiers, and musicians
+dbo:settingOfPlay	241	Rosencrantz and Guildenstern Are Dead	http://dbpedia.org/resource/Rosencrantz_and_Guildenstern_Are_Dead	Shakespeare's Hamlet
+dbo:premiereDate	241	Rosencrantz and Guildenstern Are Dead	http://dbpedia.org/resource/Rosencrantz_and_Guildenstern_Are_Dead	1966-08-24
+dbo:premiereYear	241	Rosencrantz and Guildenstern Are Dead	http://dbpedia.org/resource/Rosencrantz_and_Guildenstern_Are_Dead	1966
+dbo:characterInPlay	288	'night, Mother	http://dbpedia.org/resource/'night,_Mother	Thelma Cates
+dbo:premiereYear	288	'night, Mother	http://dbpedia.org/resource/'night,_Mother	1983
+dbo:imdbId	301	Four past Midnight	http://dbpedia.org/resource/Four_past_Midnight	0112040
+dbo:budget	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	6700000.0
+dbo:runtime	325	The Shoes of the Fisherman	http://dbpedia.org/resource/The_Shoes_of_the_Fisherman	9720.0
+dbo:chorusCharacterInPlay	405	Oedipus the King	http://dbpedia.org/resource/Oedipus_the_King	Theban Elders
+dbo:characterInPlay	405	Oedipus the King	http://dbpedia.org/resource/Oedipus_the_King	* Second Messenger
+dbo:muteCharacterInPlay	405	Oedipus the King	http://dbpedia.org/resource/Oedipus_the_King	Daughters ofOedipus(AntigoneandIsmene)
+dbo:settingOfPlay	405	Oedipus the King	http://dbpedia.org/resource/Oedipus_the_King	Thebes
+dbo:premiereYear	405	Oedipus the King	http://dbpedia.org/resource/Oedipus_the_King	-0429
+dbo:imdbId	460	Elephants Can Remember	http://dbpedia.org/resource/Elephants_Can_Remember	2119591
+dbo:imdbId	463	Hercule Poirot's Christmas	http://dbpedia.org/resource/Hercule_Poirot's_Christmas	0110014
+dbo:imdbId	467	The Woman in White (novel)	http://dbpedia.org/resource/The_Woman_in_White_(novel)	0137279
+dbo:settingOfPlay	480	Life Is a Dream	http://dbpedia.org/resource/Life_Is_a_Dream	Poland
+dbo:premiereYear	480	Life Is a Dream	http://dbpedia.org/resource/Life_Is_a_Dream	1635
+dbo:subjectOfPlay	480	Life Is a Dream	http://dbpedia.org/resource/Life_Is_a_Dream	Free will,fate
+dbo:imdbId	486	The Holy Thief	http://dbpedia.org/resource/The_Holy_Thief	0534991
+dbo:imdbId	510	The Mystery of the Blue Train	http://dbpedia.org/resource/The_Mystery_of_the_Blue_Train	0465569
+dbo:editorTitle	559	Sojourners	http://dbpedia.org/resource/Sojourners	Editor
+dbo:issn	559	Sojourners	http://dbpedia.org/resource/Sojourners	0364-2097
+dbo:circulation	559	Sojourners	http://dbpedia.org/resource/Sojourners	35000
+dbo:depictionDescription	559	Sojourners	http://dbpedia.org/resource/Sojourners	May 2011 cover of Sojourners
+dbo:imdbId	588	Company K	http://dbpedia.org/resource/Company_K	0372828
+dbo:imdbId	602	A Lesson Before Dying	http://dbpedia.org/resource/A_Lesson_Before_Dying	0179940
+dbo:imdbId	611	Daniel Deronda	http://dbpedia.org/resource/Daniel_Deronda	0321897
+dbo:characterInPlay	613	Funeral Games (play)	http://dbpedia.org/resource/Funeral_Games_(play)	Pringle, Caulfield, Tess, McCorquodale, Police Officers
+dbo:premiereDate	613	Funeral Games (play)	http://dbpedia.org/resource/Funeral_Games_(play)	1968-08-26
+dbo:premiereYear	613	Funeral Games (play)	http://dbpedia.org/resource/Funeral_Games_(play)	1968
+dbo:circulation	624	Inext	http://dbpedia.org/resource/Inext	311404
+dbo:imdbId	633	The Good Soldier	http://dbpedia.org/resource/The_Good_Soldier	0085022
+dbo:imdbId	693	Smiley's People	http://dbpedia.org/resource/Smiley's_People	0083480
+dbo:imdbId	696	Fat Kid Rules the World	http://dbpedia.org/resource/Fat_Kid_Rules_the_World	1995304
+dbo:imdbId	724	The Tenant of Wildfell Hall	http://dbpedia.org/resource/The_Tenant_of_Wildfell_Hall	0115387
+dbo:settingOfPlay	746	Heartbreak House	http://dbpedia.org/resource/Heartbreak_House	England,World War I
+dbo:premiereYear	746	Heartbreak House	http://dbpedia.org/resource/Heartbreak_House	1920
+dbo:subjectOfPlay	746	Heartbreak House	http://dbpedia.org/resource/Heartbreak_House	A dinner party at an eccentric household during World War 1
+dbo:premiereDate	757	His Dark Materials (play)	http://dbpedia.org/resource/His_Dark_Materials_(play)	2003-12-20
+dbo:premiereYear	757	His Dark Materials (play)	http://dbpedia.org/resource/His_Dark_Materials_(play)	2003
+dbo:subjectOfPlay	757	His Dark Materials (play)	http://dbpedia.org/resource/His_Dark_Materials_(play)	Life and death, power and authority
+dbo:imdbId	758	The Heart of the Matter	http://dbpedia.org/resource/The_Heart_of_the_Matter	0085658
+dbo:characterInPlay	795	The Pillowman	http://dbpedia.org/resource/The_Pillowman	Michal
+dbo:premiereDate	795	The Pillowman	http://dbpedia.org/resource/The_Pillowman	2003-11-13
+dbo:premiereYear	795	The Pillowman	http://dbpedia.org/resource/The_Pillowman	2003
+dbo:premiereDate	855	One Flew Over the Cuckoo's Nest (play)	http://dbpedia.org/resource/One_Flew_Over_the_Cuckoo's_Nest_(play)	1963-11-13
+dbo:premiereYear	855	One Flew Over the Cuckoo's Nest (play)	http://dbpedia.org/resource/One_Flew_Over_the_Cuckoo's_Nest_(play)	1963
+dbo:subjectOfPlay	855	One Flew Over the Cuckoo's Nest (play)	http://dbpedia.org/resource/One_Flew_Over_the_Cuckoo's_Nest_(play)	One Flew Over the Cuckoo's Nest byKen Kesey
+dbo:imdbId	860	Running with Scissors (memoir)	http://dbpedia.org/resource/Running_with_Scissors_(memoir)	0439289
+dbo:characterInPlay	877	Waiting for Godot	http://dbpedia.org/resource/Waiting_for_Godot	A Boy
+dbo:muteCharacterInPlay	877	Waiting for Godot	http://dbpedia.org/resource/Waiting_for_Godot	Godot
+dbo:premiereDate	877	Waiting for Godot	http://dbpedia.org/resource/Waiting_for_Godot	1953-01-05
+dbo:premiereYear	877	Waiting for Godot	http://dbpedia.org/resource/Waiting_for_Godot	1953
+dbo:editorTitle	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	Editor-in-chief
+dbo:issn	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	0017-209X
+dbo:circulation	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	4336711
+dbo:year	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	2011
+dbo:depictionDescription	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	January 2015 cover featuringJulie Walters
+dbo:imageSize	901	Good Housekeeping	http://dbpedia.org/resource/Good_Housekeeping	200
+dbo:characterInPlay	933	A Doll's House	http://dbpedia.org/resource/A_Doll's_House	Helene
+dbo:settingOfPlay	933	A Doll's House	http://dbpedia.org/resource/A_Doll's_House	The home of the Helmer family in an unspecified Norwegian town or city, circa 1879.
+dbo:premiereDate	933	A Doll's House	http://dbpedia.org/resource/A_Doll's_House	1879-12-21
+dbo:premiereYear	933	A Doll's House	http://dbpedia.org/resource/A_Doll's_House	1879
+dbo:subjectOfPlay	933	A Doll's House	http://dbpedia.org/resource/A_Doll's_House	The awakening of a middle-class wife and mother.
+dbo:characterInPlay	939	The Crucible	http://dbpedia.org/resource/The_Crucible	Rebecca Nurse
+dbo:settingOfPlay	939	The Crucible	http://dbpedia.org/resource/The_Crucible	Salem,Massachusetts Bay Colony
+dbo:premiereDate	939	The Crucible	http://dbpedia.org/resource/The_Crucible	1953-01-22
+dbo:premiereYear	939	The Crucible	http://dbpedia.org/resource/The_Crucible	1953
+dbo:subjectOfPlay	939	The Crucible	http://dbpedia.org/resource/The_Crucible	Salem witch trials,McCarthyism
+dbo:characterInPlay	1056	Nathan the Wise	http://dbpedia.org/resource/Nathan_the_Wise	Nathan, Saladin, Young Templar, Patriarch, Monk, Recha, Sittah, Al-Hafi
+dbo:settingOfPlay	1056	Nathan the Wise	http://dbpedia.org/resource/Nathan_the_Wise	Jerusalem ca. 1192
+dbo:premiereDate	1056	Nathan the Wise	http://dbpedia.org/resource/Nathan_the_Wise	1783-04-14
+dbo:premiereYear	1056	Nathan the Wise	http://dbpedia.org/resource/Nathan_the_Wise	1783
+dbo:settingOfPlay	1067	The Visit (play)	http://dbpedia.org/resource/The_Visit_(play)	Güllen
+dbo:premiereYear	1067	The Visit (play)	http://dbpedia.org/resource/The_Visit_(play)	1956
+dbo:imdbId	1074	Breathing Lessons	http://dbpedia.org/resource/Breathing_Lessons	0109335
+dbo:imdbId	1075	Saint Maybe	http://dbpedia.org/resource/Saint_Maybe	0168156
+dbo:imdbId	1122	Talking It Over	http://dbpedia.org/resource/Talking_It_Over	0116932
+dbo:characterInPlay	1146	M. Butterfly	http://dbpedia.org/resource/M._Butterfly	Renee and others
+dbo:settingOfPlay	1146	M. Butterfly	http://dbpedia.org/resource/M._Butterfly	A Paris prison, 1988; recollections of Beijing and Paris
+dbo:premiereDate	1146	M. Butterfly	http://dbpedia.org/resource/M._Butterfly	1988-02-10
+dbo:premiereYear	1146	M. Butterfly	http://dbpedia.org/resource/M._Butterfly	1988
+dbo:subjectOfPlay	1146	M. Butterfly	http://dbpedia.org/resource/M._Butterfly	East/West cultural stereotypes
+dbo:characterInPlay	1157	The Invention of Love	http://dbpedia.org/resource/The_Invention_of_Love	Oscar Wilde
+dbo:settingOfPlay	1157	The Invention of Love	http://dbpedia.org/resource/The_Invention_of_Love	The riverStyx
+dbo:subjectOfPlay	1157	The Invention of Love	http://dbpedia.org/resource/The_Invention_of_Love	A. E. Housman
+dbo:characterInPlay	1160	The Real Thing (play)	http://dbpedia.org/resource/The_Real_Thing_(play)	Max
+dbo:premiereDate	1160	The Real Thing (play)	http://dbpedia.org/resource/The_Real_Thing_(play)	1982-11-16
+dbo:premiereYear	1160	The Real Thing (play)	http://dbpedia.org/resource/The_Real_Thing_(play)	1982
+dbo:subjectOfPlay	1160	The Real Thing (play)	http://dbpedia.org/resource/The_Real_Thing_(play)	Love, reality versus fiction
+dbo:settingOfPlay	1162	The Importance of Being Earnest	http://dbpedia.org/resource/The_Importance_of_Being_Earnest	London and an estate inHertfordshire
+dbo:premiereYear	1162	The Importance of Being Earnest	http://dbpedia.org/resource/The_Importance_of_Being_Earnest	1895
+dbo:imdbId	1168	Murder on the Orient Express	http://dbpedia.org/resource/Murder_on_the_Orient_Express	1554113
+dbo:imdbId	1184	The Legend of Sleepy Hollow	http://dbpedia.org/resource/The_Legend_of_Sleepy_Hollow	0162661
+dbo:imdbId	1223	Miss Smilla's Feeling for Snow	http://dbpedia.org/resource/Miss_Smilla's_Feeling_for_Snow	0120152
+dbo:imdbId	1225	The Body in the Library	http://dbpedia.org/resource/The_Body_in_the_Library	0414752
+dbo:imdbId	1252	The Five People You Meet in Heaven	http://dbpedia.org/resource/The_Five_People_You_Meet_in_Heaven	0400435
+dbo:imdbId	1258	The Ghost Writer	http://dbpedia.org/resource/The_Ghost_Writer	0087331
+dbo:imdbId	1273	Cards on the Table	http://dbpedia.org/resource/Cards_on_the_Table	0478226
+dbo:imdbId	1275	The Murder of Roger Ackroyd	http://dbpedia.org/resource/The_Murder_of_Roger_Ackroyd	0236523
+dbo:imdbId	1285	Lady Audley's Secret	http://dbpedia.org/resource/Lady_Audley's_Secret	0095274
+dbo:imdbId	1300	Team of Rivals	http://dbpedia.org/resource/Team_of_Rivals	0443272
+dbo:imdbId	1301	The A.B.C. Murders	http://dbpedia.org/resource/The_A.B.C._Murders	0467432
+dbo:imdbId	1302	The Things They Carried	http://dbpedia.org/resource/The_Things_They_Carried	129414
+dbo:imdbId	1313	Lord Edgware Dies	http://dbpedia.org/resource/Lord_Edgware_Dies	0235681
+dbo:imdbId	1315	Towards Zero	http://dbpedia.org/resource/Towards_Zero	0889606
+dbo:imdbId	1334	Why Didn't They Ask Evans?	http://dbpedia.org/resource/Why_Didn't_They_Ask_Evans?	1276406
+dbo:imdbId	1378	A Great and Terrible Beauty	http://dbpedia.org/resource/A_Great_and_Terrible_Beauty	0833962
+dbo:imdbId	1431	A Morbid Taste for Bones	http://dbpedia.org/resource/A_Morbid_Taste_for_Bones	0534986
+dbo:imdbId	1439	Belles on Their Toes	http://dbpedia.org/resource/Belles_on_Their_Toes	0044410
+dbo:imdbId	1454	Fear and Loathing in Las Vegas	http://dbpedia.org/resource/Fear_and_Loathing_in_Las_Vegas	0120669
+dbo:characterInPlay	1486	Metamorphoses (play)	http://dbpedia.org/resource/Metamorphoses_(play)	Eros
+dbo:premiereYear	1486	Metamorphoses (play)	http://dbpedia.org/resource/Metamorphoses_(play)	1996
+dbo:firstPublicationDate	1515	Like Life	http://dbpedia.org/resource/Like_Life	2004-08-20
+dbo:lastPublicationDate	1515	Like Life	http://dbpedia.org/resource/Like_Life	2005-04-15
+dbo:imdbId	1532	To Have and to Hold	http://dbpedia.org/resource/To_Have_and_to_Hold	0013686
+dbo:characterInPlay	1559	The Miracle Worker (play)	http://dbpedia.org/resource/The_Miracle_Worker_(play)	Viney
+dbo:settingOfPlay	1559	The Miracle Worker (play)	http://dbpedia.org/resource/The_Miracle_Worker_(play)	Tuscumbia, Alabama
+dbo:premiereDate	1559	The Miracle Worker (play)	http://dbpedia.org/resource/The_Miracle_Worker_(play)	1959-10-19
+dbo:premiereYear	1559	The Miracle Worker (play)	http://dbpedia.org/resource/The_Miracle_Worker_(play)	1959
+dbo:foundingDate	1604	Weekender	http://dbpedia.org/resource/Weekender	1981-03-18
+dbo:circulation	1604	Weekender	http://dbpedia.org/resource/Weekender	55746
+dbo:circulation	1607	The Guardian	http://dbpedia.org/resource/The_Guardian	161152
+dbo:firstPublicationDate	1633	Prince Charming (manga)	http://dbpedia.org/resource/Prince_Charming_(manga)	2004-12-27
+dbo:imdbId	1643	A Spell for Chameleon	http://dbpedia.org/resource/A_Spell_for_Chameleon	0436786
+dbo:imdbId	1646	A Wrinkle in Time	http://dbpedia.org/resource/A_Wrinkle_in_Time	0290382
+dbo:imdbId	1665	The Flanders Panel	http://dbpedia.org/resource/The_Flanders_Panel	0111549
+dbo:imdbId	1668	Cold Sassy Tree	http://dbpedia.org/resource/Cold_Sassy_Tree	0097080
+dbo:characterInPlay	1689	The Bald Soprano	http://dbpedia.org/resource/The_Bald_Soprano	*The Fire Chief
+dbo:settingOfPlay	1689	The Bald Soprano	http://dbpedia.org/resource/The_Bald_Soprano	A middle-class English home. An English evening.
+dbo:premiereDate	1689	The Bald Soprano	http://dbpedia.org/resource/The_Bald_Soprano	1950-05-11
+dbo:premiereYear	1689	The Bald Soprano	http://dbpedia.org/resource/The_Bald_Soprano	1950
+dbo:imdbId	1697	Pollyanna	http://dbpedia.org/resource/Pollyanna	0314519
+dbo:imdbId	1717	A Million Little Pieces	http://dbpedia.org/resource/A_Million_Little_Pieces	1298585
+dbo:imdbId	1718	Needful Things	http://dbpedia.org/resource/Needful_Things	0107665
+dbo:imdbId	1735	The Stepford Wives	http://dbpedia.org/resource/The_Stepford_Wives	0327162
+dbo:imdbId	1739	Streets of Laredo	http://dbpedia.org/resource/Streets_of_Laredo	0112041
+dbo:imdbId	1767	The Ruby in the Smoke	http://dbpedia.org/resource/The_Ruby_in_the_Smoke	0498382
+dbo:characterInPlay	1803	Death of a Salesman	http://dbpedia.org/resource/Death_of_a_Salesman	Howard
+dbo:settingOfPlay	1803	Death of a Salesman	http://dbpedia.org/resource/Death_of_a_Salesman	Late 1940s; Willy Loman's house; New York City and Barnaby River; Boston
+dbo:premiereDate	1803	Death of a Salesman	http://dbpedia.org/resource/Death_of_a_Salesman	1949-02-10
+dbo:premiereYear	1803	Death of a Salesman	http://dbpedia.org/resource/Death_of_a_Salesman	1949
+dbo:subjectOfPlay	1803	Death of a Salesman	http://dbpedia.org/resource/Death_of_a_Salesman	The waning days of a failing salesman
+dbo:imdbId	1834	The Princess and the Goblin	http://dbpedia.org/resource/The_Princess_and_the_Goblin	0107875
+dbo:chorusCharacterInPlay	1851	The Knights	http://dbpedia.org/resource/The_Knights	knights
+dbo:characterInPlay	1851	The Knights	http://dbpedia.org/resource/The_Knights	*Several slaves
+dbo:settingOfPlay	1851	The Knights	http://dbpedia.org/resource/The_Knights	Outside Demos' house near thePnyxinAthens
+dbo:imdbId	1946	The Yellow Wallpaper	http://dbpedia.org/resource/The_Yellow_Wallpaper	0314918
+dbo:imdbId	1949	The Woodlanders	http://dbpedia.org/resource/The_Woodlanders	0423546
+dbo:imdbId	1968	The Murder at the Vicarage	http://dbpedia.org/resource/The_Murder_at_the_Vicarage	0441885
+dbo:imdbId	1972	Three Act Tragedy	http://dbpedia.org/resource/Three_Act_Tragedy	1469899
+dbo:imdbId	2070	The Amityville Horror	http://dbpedia.org/resource/The_Amityville_Horror	0384806
+dbo:imdbId	2081	Neuromancer	http://dbpedia.org/resource/Neuromancer	1037220
+dbo:imdbId	2082	Pattern Recognition (novel)	http://dbpedia.org/resource/Pattern_Recognition_(novel)	0409138
+dbo:characterInPlay	2213	Cyrano de Bergerac (play)	http://dbpedia.org/resource/Cyrano_de_Bergerac_(play)	Ragueneau
+dbo:settingOfPlay	2213	Cyrano de Bergerac (play)	http://dbpedia.org/resource/Cyrano_de_Bergerac_(play)	France, 1640
+dbo:imdbId	2239	Less Than Zero (novel)	http://dbpedia.org/resource/Less_Than_Zero_(novel)	0093407
+dbo:imdbId	2240	Lucky Jim	http://dbpedia.org/resource/Lucky_Jim	0311461
+dbo:imdbId	2257	The End of the Affair	http://dbpedia.org/resource/The_End_of_the_Affair	0172396
+dbo:imdbId	2271	I Capture the Castle	http://dbpedia.org/resource/I_Capture_the_Castle	0300015
+dbo:imdbId	2273	Prozac Nation	http://dbpedia.org/resource/Prozac_Nation	0236640
+dbo:firstPublicationDate	2336	D.N.Angel	http://dbpedia.org/resource/D.N.Angel	2003-08-01
+dbo:lastPublicationDate	2336	D.N.Angel	http://dbpedia.org/resource/D.N.Angel	2003-10-01
+dbo:imdbId	2347	1st to Die	http://dbpedia.org/resource/1st_to_Die	0252133
+dbo:imdbId	2364	Motherless Brooklyn	http://dbpedia.org/resource/Motherless_Brooklyn	0385887
+dbo:imdbId	2365	Native Son	http://dbpedia.org/resource/Native_Son	0091613
+dbo:editorTitle	2370	PC Explorer	http://dbpedia.org/resource/PC_Explorer	Editor
+dbo:issn	2370	PC Explorer	http://dbpedia.org/resource/PC_Explorer	1477-9846
+dbo:imdbId	2406	The Facts Behind the Helsinki Roccamatios	http://dbpedia.org/resource/The_Facts_Behind_the_Helsinki_Roccamatios	0435181
+dbo:imdbId	2409	The Vagina Monologues	http://dbpedia.org/resource/The_Vagina_Monologues	0244283
+dbo:imdbId	2450	Johnny Got His Gun	http://dbpedia.org/resource/Johnny_Got_His_Gun	1078582
+dbo:imdbId	2453	One Day in the Life of Ivan Denisovich	http://dbpedia.org/resource/One_Day_in_the_Life_of_Ivan_Denisovich	0067530
+dbo:characterInPlay	2468	Who's Afraid of Virginia Woolf?	http://dbpedia.org/resource/Who's_Afraid_of_Virginia_Woolf?	Honey
+dbo:settingOfPlay	2468	Who's Afraid of Virginia Woolf?	http://dbpedia.org/resource/Who's_Afraid_of_Virginia_Woolf?	Martha and George's New England home
+dbo:premiereDate	2468	Who's Afraid of Virginia Woolf?	http://dbpedia.org/resource/Who's_Afraid_of_Virginia_Woolf?	1962-10-13
+dbo:premiereYear	2468	Who's Afraid of Virginia Woolf?	http://dbpedia.org/resource/Who's_Afraid_of_Virginia_Woolf?	1962
+dbo:subjectOfPlay	2468	Who's Afraid of Virginia Woolf?	http://dbpedia.org/resource/Who's_Afraid_of_Virginia_Woolf?	Marital strife
+dbo:imdbId	2488	The Street Lawyer	http://dbpedia.org/resource/The_Street_Lawyer	0362375
+dbo:imdbId	2491	A Painted House	http://dbpedia.org/resource/A_Painted_House	0362001
+dbo:characterInPlay	2500	Life of Galileo	http://dbpedia.org/resource/Life_of_Galileo	Galileo, Andrea Sarti, Mrs Sarti, Ludovico Marsili, Virginia, Sagredo, Federzoni, Mr Priuli, Cosimo de Medici, Father Christopher Clavius, Cardinal Barberini, Fillipo Mucius, Mr Gaffone, Vanni, Senator, 1st Monk, Puppeteer, Rector
+dbo:settingOfPlay	2500	Life of Galileo	http://dbpedia.org/resource/Life_of_Galileo	Renaissance Italy
+dbo:subjectOfPlay	2500	Life of Galileo	http://dbpedia.org/resource/Life_of_Galileo	Social responsibility of scientists
+dbo:issn	2509	Hit Parader	http://dbpedia.org/resource/Hit_Parader	0162-0266
+dbo:firstPublicationDate	2526	The Flowers of Evil (manga)	http://dbpedia.org/resource/The_Flowers_of_Evil_(manga)	2009-09-09
+dbo:lastPublicationDate	2526	The Flowers of Evil (manga)	http://dbpedia.org/resource/The_Flowers_of_Evil_(manga)	2014-05-09
+dbo:imdbId	2572	The Scold's Bridle	http://dbpedia.org/resource/The_Scold's_Bridle	0152307
