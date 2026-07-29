@@ -1,0 +1,9 @@
+python run_dcgl.py \
+    --cl_weight 0.05 \
+    --alpha 0.03 \
+    --beta 70 \
+    --mu 0.1 \
+    --dataset dbbook2014 \
+    --log \
+    --log_fn mine_kg_4660_l2 \
+    --desc "mine_kg_4660_l2"

@@ -30,3 +30,7 @@ venv/
 # IDE
 .vscode/
 .idea/
+
+# 其它
+*.zip
+*.rar
