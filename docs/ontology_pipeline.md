@@ -1,5 +1,9 @@
 # Ontology 现状诊断与 ontology_embeddings 构建方案
 
+> **状态：下一步计划**。本文档（诊断 + 五步流程 + overrides 建议稿）已定稿，
+> 待模型 MVP 阶段完成后实施。前置条件已就绪：`build_ontology.py` 已提取
+> `class_equivalents` / `class_comments`，02c 已输出各 KG 版本的 `ontology_map.dat`。
+
 > 目标：把 dbo 类节点的描述与嵌入**数据集无关化**，产出全局资产 `ontology_embeddings.npy`，
 > 支撑跨 KG 共享语义空间（类节点作为跨数据集"锚点"）。本文档包含三部分：
 > 现状诊断、处理流程、`ontology_overrides.json` 建议稿。

@@ -30,7 +30,8 @@ data_preprocess/
 │
 ├── output/probe_predicates.py  # 谓词分布探查（供 KG 关系筛选与 relation_priority 参考）
 ├── output/probe_objects.py     # types/categories 宾语分布探查（供类型/类别边构建策略参考）
-├── output/concat_catfreq_prompts.py  # 多 min_cat_freq 版本 prompts 的去重拼接与拆分
+├── output/concat_catfreq_prompts.py  # 多 min_cat_freq 版本 prompts 的去重拼接与拆分（含 --split_embeddings）
+├── output/summarize_dcgl_logs.py     # DCGL 实验日志汇总（recall@50，txt + xlsx）
 │
 ├── resources/
 │   ├── build_ontology.py       # 从 dbpedia_2016-10.owl 生成 ontology.json
@@ -39,7 +40,9 @@ data_preprocess/
 │   └── role_type_map.json      # 连接谓词 -> 兼容 dbo 类型（03 与 02c 共用的兜底推断表）
 │
 ├── docs/
-│   └── ontology_pipeline.md    # ontology 诊断与 ontology_embeddings（全局类节点嵌入）方案
+│   └── ontology_pipeline.md    # ontology 诊断与 ontology_embeddings 方案（下一步计划）
+│
+├── tmp_dcgl_data/              # DCGL 对比实验数据包与批处理脚本（见"下游实验对接"）
 │
 ├── dumps/
 │   ├── dbpedia_download.py     # DBpedia 转储下载脚本
@@ -572,6 +575,21 @@ full 数据集的额外产物：
 - `full_entities.dat` / `full_triples.dat` / `full_relations.dat` / `full_entity_meta.json`：合并 KG（含 dbo/dbc 类别节点与边）
 - `ontology_map.dat`：dbo 类节点 ID → 类 URI，供全局 ontology_embeddings 行映射（方案见 `docs/ontology_pipeline.md`）
 - `kg/catfreq{N}/`：各 `min_cat_freq` 版本的 KG 快照（消融用）
+
+## 下游实验对接（DCGL）
+
+`tmp_dcgl_data/` 存放 DCGL 对比实验的数据包与批处理脚本：
+
+- `build_dcgl_packages.py`：构建 DCGL 格式数据文件夹（`entity_embeddings.npy` + `kg_final.txt`（h r t 空格分隔、固定种子打乱）+ 共享的 train/test/interaction counts）。三种模式：
+  - 默认：catfreq 全量嵌入 8 份（`dbbook2014_catfreq{N}_{l2|no_l2}`，含 zip）
+  - `--item_only`：catfreq 物品嵌入对照 8 份（`item_` 前缀，仅 2680 物品嵌入，其余实体由 DCGL 随机初始化）
+  - `--legacy`：4660 版 4 份（KG 重新打乱）+ 原始 KG 基线 2 份（`item_dbbook2014_{l2|no_l2}`）
+- `run_catfreq_experiments.sh` / `run_item_catfreq_experiments.sh` / `run_legacy_experiments.sh`：每份数据 3 次运行的批处理脚本（在 DCGL 项目目录下执行）。
+- 日志汇总：`output/summarize_dcgl_logs.py` 解析日志目录（取每条日志的 DESC 与最后一行 early stopping/recall@50），输出 `汇总.txt`（分组明细 + 降序总榜）与 `汇总.xlsx`（汇总/明细/透视三 sheet）。需要 openpyxl（项目内 `venv/` 已安装，用 `./venv/Scripts/python` 运行）。
+
+## 下一步计划
+
+- **全局 ontology_embeddings**（dbo 类节点嵌入的数据集无关化，支撑跨 KG 共享语义空间）：ontology 现状诊断、五步流程与 `ontology_overrides.json` 建议稿见 `docs/ontology_pipeline.md`。**待模型 MVP 阶段完成后实施**；落地路径为 overrides 审核 → `build_ontology.py` v2 → 760 类独立 prompt → 04/05 → `resources/embeddings/`，下游用 02c 已输出的 `ontology_map.dat` 按行替换类节点嵌入。
 
 ## 注意事项
 
